@@ -113,6 +113,7 @@ define('access', true);
         ?>
         <meta name="description" content="<? echo $description2; ?>">
         <meta name="keywords" content="<? echo $keywords2; ?>">
+        <meta name="robots" content="index, follow">
 
         <link href="<?php echo $base_url; ?>css/bootstrap.css" rel="stylesheet">
         <link href="<?php echo $base_url; ?>css/style.css" rel="stylesheet">
@@ -320,10 +321,10 @@ define('access', true);
     </div>
 
     <div class="container">
-        <div class="navbar-header">
+        <div class="navbar-header" style="display: flex; flex-direction: row; padding: 10px 0;">
 
             <? if ($_SESSION['uye'] == "") { ?>
-                <i class="ac-kapasag fa fa-user fa-2x">
+                <i class="ac-kapa fa fa-bars fa-2x">
                     <font style="font-size:18px;font-family:arial;text-align: center;font-weight:600;"></font>
                 </i>
                 <div class="mobil-menuqq">
@@ -358,15 +359,13 @@ define('access', true);
                         </li>
                     </ul>
                 </div>
-
-                <i class="ac-kapa fa fa-bars fa-2x">
+                <div class="visible-xs mobil-logo"
+                     style="flex: 2;text-align: center;">
+                    <? echo banner(6); ?>
+                </div>
+                <i class="ac-kapasag fa fa-user fa-2x">
                     <font style="font-size:18px;font-family:arial;text-align: center;font-weight:600;"></font>
                 </i>
-                <div class="visible-xs"
-                     style="color: #fff;font-weight:600;margin-top:-38px;text-align:center;margin-left:30px;">
-                    <a href="<?php echo $base_url; ?>"><? echo banner(6); ?></a>
-                </div>
-
                 <div class="mobil-menu">
 
                     <?
@@ -381,7 +380,7 @@ define('access', true);
                     <li><i class="fa fa-bell-o" aria-hidden="true"></i> <a
                                 href="<?php echo $base_url; ?>acil-ilanlar.html?sayfa=1"
                                 style="color:#fff;font-size:14px;font-family:arial;text-align: center;"
-                                class="cat_text">Acil Acil İlanları</a></li>
+                                class="cat_text">Acil İlanlar</a></li>
                     <li><i class="fa fa-thumbs-down" aria-hidden="true"></i> <a
                                 href="<?php echo $base_url; ?>fiyati-dusenler.html"
                                 style="color:#fff;font-size:14px;font-family:arial;text-align: center;"
@@ -400,7 +399,7 @@ define('access', true);
                                 class="cat_text">Mağazalar</a></li>
                 </div>
             <? } else { ?>
-                <i class="ac-kapasag fa fa-user fa-2x"><font
+                <i class="ac-kapa fa fa-bars fa-2x"><font
                             style="font-size:18px;font-family:arial;text-align: center;font-weight:600;"></font></i>
                 <div class="mobil-menuqq">
                     <center><b><font size="1" color="#fff"><? echo $_SESSION['adsoyad']; ?></font>&nbsp;<a
@@ -489,13 +488,12 @@ define('access', true);
 
 
                 </div>
-                <i class="ac-kapa fa fa-bars fa-2x"><font
+                <div class="visible-xs mobil-logo"
+                     style="flex: 2;text-align: center;">
+                    <? echo banner(6); ?>
+                </div>
+                <i class="ac-kapasag fa fa-user fa-2x"><font
                             style="font-size:18px;font-family:arial;text-align: center;font-weight:600;"></font></i>
-                <div class="visible-xs"
-                     style="color: #fff;font-weight:600;margin-top:-38px;text-align:center;margin-left:30px;"><a
-                            href="<?php echo $base_url; ?>"><img border="0" src="../../img/mobillogo.png" width="160"
-                                                                 height="34"></a></div>
-
                 <div class="mobil-menu">
                     <?
                     $sql = $db->query("SELECT * FROM category WHERE ustkategoriId = '0' and tip = '0' ORDER BY sira ASC");
@@ -534,7 +532,7 @@ define('access', true);
     </div>
 
 
-    <form action="index.php" style="margin-top: 45px;margin-bottom:2px;" class="visible-xs" method="get">
+    <form action="index.php" style="margin-top: 65px;margin-bottom:2px;" class="visible-xs" method="get">
         <input type="hidden" name="page" value="search">
         <input type="text" name="keyword" id="keyword" class="form-control" value=""
                placeholder="Kelime yada ilan numarasına göre ara..." style="min-height: 2em;"/>

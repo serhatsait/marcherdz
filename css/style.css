@@ -7,7 +7,14 @@ body {
 }
 
 .logo a img {
-    height: 38px;
+    height: 48px;
+    border-radius: 6px;
+}
+
+.footerlogo a img {
+    width: 100%;
+    max-width: 235px;
+    border-radius: 6px;
 }
 
 .tab-menu {
@@ -957,7 +964,6 @@ body {
     height: 65px;
     margin-top: 29px;
     text-align: center;
-    padding-top: 14px;
     border-radius: 4px !important;
 }
 
@@ -983,6 +989,7 @@ body {
     .header-s {
         height: 135px;
         background: url(../img/header-bg.png);
+        display: none;
     }
 
     .navbar-default .navbar-nav .open .dropdown-menu > li > a {
@@ -1009,10 +1016,22 @@ body {
     }
 }
 
+@media (min-width: 768px) {
+    .navbar-header {
+        display: none!important;
+    }
+}
+
 .wrapper {
     position: relative;
     display: flex;
     flex-direction: row;
     align-items: center;
     width: 100%;
+}
+
+.mobil-logo a img {
+    width: 100%;
+    max-width: 160px;
+    border-radius: 6px;
 }
