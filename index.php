@@ -154,172 +154,169 @@ define('access', true);
 
     <div class="header-s">
 
-        <div class="container">
-            <div class="hidden-xs" id="getFixed" style="position:absolute; top: 10px;">
+        <div style="width: calc(100% - 50px);max-width: 1200px;margin: auto;">
+            <div class="hidden-xs" id="getFixed">
                 <div class="top-line hidden-xs">
-                    <div class="container">
-                        <div class="row ">
-                            <div class="col-lg-12 col-sm-12 ">
-                                <div>
-                                    <ul class="nav navbar-nav pull-right hidden-xs">
-                                        <? if ($_SESSION['uye'] == "") { ?>
-
-
-                                            <li style="margin-right:20px;margin-top:-19px;font-size:12px;font-weight:600;">
-                                                <a href="/register/"><i class="fa fa-user-plus" aria-hidden="true"></i>
-                                                    Üye Ol</a></li>
-                                            <li style="margin-right:25px;margin-top:-19px;font-size:12px;font-weight:600;">
-                                                <a href="/login/"><i class="fa fa-sign-in" aria-hidden="true"></i> Giriş
-                                                    Yap</a></li>
-                                        <? } else { ?>
-                                            <li class="dropdown"><a href="#"
-                                                                    class="dropdown-toggle btn btn-dafault button2"
-                                                                    style="margin-right: 25px;margin-top:-20px;z-index:1000;font-size:12px;font-weight:600;color: white;"
-                                                                    data-toggle="dropdown" role="button"
-                                                                    aria-haspopup="true"
-                                                                    aria-expanded="false"><? echo $_SESSION['adsoyad']; ?>
-                                                    &nbsp;&nbsp;<span class="caret"></span></a>
-                                                <ul class="dropdown-menu">
-                                                    <li><a href="index.php?page=add">» Ücretsiz İlan Ekle</a></li>
-                                                    <li><a href="index.php?page=add4">» Firma Ekle</a></li>
-                                                    <?
-                                                    $uye = $_SESSION["uye"];
-                                                    $sql = $db->query("SELECT * FROM mesajlar WHERE gonderilen = '$uye' and okundu = '0'");
-                                                    $say = $sql->rowCount();
-                                                    ?>
-                                                    <li><a href="index.php?page=message">» Mesajlar
-                                                            <? if ($say != 0) { ?>
-                                                                </h4>
-                                                                <span class="label label-danger">( <? echo $say; ?> )</span>
-                                                            <? } ?>
-                                                        </a></li>
-
-                                                    <?
-                                                    $uye = $_SESSION["uye"];
-                                                    $sql = $db->query("SELECT * FROM magazalar WHERE uyeId = '$uye'");
-                                                    if ($sql->rowCount() > 0) {
-                                                        echo '<li><a href="/index.php?page=medit">» Mağaza Bilgilerim</a></li>';
-                                                    } else {
-                                                        echo '<li><a href="/index.php?page=mopen">» Mağaza Aç</a></li>';
-                                                    }
-
-                                                    ?>
-
-
-
-                                                    <?
-                                                    $uye = $_SESSION["uye"];
-                                                    $sql = $db->query("SELECT * FROM ilanlar WHERE confirm = '0' and uyeId = '$uye'");
-                                                    $say2 = $sql->rowCount();
-                                                    $bugun = date("Y-m-d");
-                                                    $sql = $db->query("SELECT * FROM ilanlar WHERE bitis < '$bugun' and uyeId = '$uye'");
-                                                    $say = $sql->rowCount() + $say2;
-                                                    ?>
-                                                    <li><a href="index.php?page=adverts">» İlan Yönetimi
-                                                            <? if ($say != 0) { ?>
-                                                                </h4>
-                                                                <span class="label label-danger">( <? echo $say; ?> )</span>
-                                                            <? } ?>
-                                                        </a></li>
-                                                    <?
-                                                    $uye = $_SESSION["uye"];
-                                                    $sql = $db->query("SELECT * FROM siparisler WHERE satici = '$uye' and durum = '0'");
-                                                    $say = $sql->rowCount();
-                                                    ?>
-                                                    <li><a href="index.php?page=kihale">» İhale İşlemlerim</a></li>
-                                                    <li><a href="index.php?page=satisislemlerim">» Satış İşlemlerim
-                                                            <? if ($say != 0) { ?>
-                                                                </h4>
-                                                                <span class="label label-danger">( <? echo $say; ?> )</span>
-                                                            <? } ?>
-                                                        </a></li>
-                                                    <?
-                                                    $uye = $_SESSION["uye"];
-                                                    $sql = $db->query("SELECT * FROM siparisler WHERE alici = '$uye' and durum = '1'");
-                                                    $say = $sql->rowCount();
-                                                    ?>
-                                                    <li><a href="index.php?page=alisislemlerim">» Alış İşlemlerim
-                                                            <? if ($say != 0) { ?>
-                                                                </h4>
-                                                                <span class="label label-danger">( <? echo $say; ?> )</span>
-                                                            <? } ?>
-                                                        </a></li>
-                                                    <?
-                                                    $uye = $_SESSION["uye"];
-                                                    $sql = $db->query("SELECT * FROM odemeler WHERE uyeId = '$uye'");
-                                                    $say = $sql->rowCount();
-                                                    ?>
-                                                    <li><a href="index.php?page=odemebildirimi">» Ödeme Bildirimi
-                                                            <? if ($say != 0) { ?>
-                                                                </h4>
-                                                                <span class="label label-danger">( <? echo $say; ?> )</span>
-                                                            <? } ?>
-                                                        </a></li>
-                                                    <li><a href="index.php?page=favoriilanlarim">» Favori İlanlarım</a>
-                                                    </li>
-
-                                                    <li><a href="/index.php?page=membership">» Üyeliğim</a></li>
-                                                    <li><a href="/index.php?page=exit">» Çıkış</a></li>
-                                                </ul>
-                                            </li>
-                                            <li style="margin-right:10px;margin-top:-23px;font-size:12px;font-weight:600;">
-                                                <a href="index.php?page=message"><i title="Mesajlarım"
-                                                                                    class="fa fa-envelope fa-2x"
-                                                                                    aria-hidden="true"></i></a></li>
-                                            <li style="margin-right:10px;margin-top:-23px;font-size:12px;font-weight:600;">
-                                                <a href="index.php?page=favoriilanlarim"><i title="Favori İlanlarım"
-                                                                                            class="fa fa-star-o fa-2x"
-                                                                                            aria-hidden="true"></i></a>
-                                            </li>
-                                            <li style="margin-right:15px;margin-top:-23px;font-size:12px;font-weight:600;">
-                                                <a href="index.php?page=exit"><i
-                                                            title="<? echo $_SESSION['adsoyad']; ?> Oturumunu Kapat"
-                                                            class="fa fa-sign-out fa-2x" aria-hidden="true"></i></a>
-                                            </li>
-                                        <? } ?>
-
-                                    </ul>
+                    <div class="wrapper">
+                        <div class="logo hidden-xs" style="flex: 1;"><? echo banner(6); ?></div>
+                        <form action="<?php echo $base_url; ?>index.php" method="get" style="flex: 1;">
+                            <div class="search-list hidden-xs">
+                                <div id="custom-search-input">
+                                    <div class="input-group">
+                                        <b>
+                                            <input name="keyword" type="text" class="form-control"
+                                                   placeholder="Kelime Veya İlan Numarasına Göre Ara..." required/>
+                                        </b>
+                                        <span class="input-group-btn">
+                                                <button class="btn btn-info" type="submit">
+                                                    <i class="glyphicon glyphicon-search"></i>
+                                                </button>
+                                            </span>
+                                    </div>
                                 </div>
                             </div>
+                        </form>
+                        <div style="flex: 1;">
+                            <a href="javascript:void(0)" data-toggle="modal" data-target="#myModal"
+                               class="btn btn-dafault button328">
+                                Hızlı Ara
+                            </a>
+                        </div>
+                        <div style="flex: 1;display: flex;justify-content: center;">
+                            <ul class="nav navbar-nav hidden-xs">
+                                <? if ($_SESSION['uye'] == "") { ?>
+
+
+                                    <li style="font-size:12px;font-weight:600;margin-right: 20px;">
+                                        <a href="/register/"><i class="fa fa-user-plus" aria-hidden="true"></i>
+                                            Üye Ol</a></li>
+                                    <li style="font-size:12px;font-weight:600;">
+                                        <a href="/login/"><i class="fa fa-sign-in" aria-hidden="true"></i> Giriş
+                                            Yap</a></li>
+                                <? } else { ?>
+                                    <li class="dropdown"><a href="#"
+                                                            class="dropdown-toggle btn btn-dafault button2"
+                                                            style="z-index:1000;font-size:12px;font-weight:600;color: white;"
+                                                            data-toggle="dropdown" role="button"
+                                                            aria-haspopup="true"
+                                                            aria-expanded="false"><? echo $_SESSION['adsoyad']; ?>
+                                            &nbsp;&nbsp;<span class="caret"></span></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="index.php?page=add">» Ücretsiz İlan Ekle</a></li>
+                                            <li><a href="index.php?page=add4">» Firma Ekle</a></li>
+                                            <?
+                                            $uye = $_SESSION["uye"];
+                                            $sql = $db->query("SELECT * FROM mesajlar WHERE gonderilen = '$uye' and okundu = '0'");
+                                            $say = $sql->rowCount();
+                                            ?>
+                                            <li><a href="index.php?page=message">» Mesajlar
+                                                    <? if ($say != 0) { ?>
+                                                        </h4>
+                                                        <span class="label label-danger">( <? echo $say; ?> )</span>
+                                                    <? } ?>
+                                                </a></li>
+
+                                            <?
+                                            $uye = $_SESSION["uye"];
+                                            $sql = $db->query("SELECT * FROM magazalar WHERE uyeId = '$uye'");
+                                            if ($sql->rowCount() > 0) {
+                                                echo '<li><a href="/index.php?page=medit">» Mağaza Bilgilerim</a></li>';
+                                            } else {
+                                                echo '<li><a href="/index.php?page=mopen">» Mağaza Aç</a></li>';
+                                            }
+
+                                            ?>
+
+
+
+                                            <?
+                                            $uye = $_SESSION["uye"];
+                                            $sql = $db->query("SELECT * FROM ilanlar WHERE confirm = '0' and uyeId = '$uye'");
+                                            $say2 = $sql->rowCount();
+                                            $bugun = date("Y-m-d");
+                                            $sql = $db->query("SELECT * FROM ilanlar WHERE bitis < '$bugun' and uyeId = '$uye'");
+                                            $say = $sql->rowCount() + $say2;
+                                            ?>
+                                            <li><a href="index.php?page=adverts">» İlan Yönetimi
+                                                    <? if ($say != 0) { ?>
+                                                        </h4>
+                                                        <span class="label label-danger">( <? echo $say; ?> )</span>
+                                                    <? } ?>
+                                                </a></li>
+                                            <?
+                                            $uye = $_SESSION["uye"];
+                                            $sql = $db->query("SELECT * FROM siparisler WHERE satici = '$uye' and durum = '0'");
+                                            $say = $sql->rowCount();
+                                            ?>
+                                            <li><a href="index.php?page=kihale">» İhale İşlemlerim</a></li>
+                                            <li><a href="index.php?page=satisislemlerim">» Satış İşlemlerim
+                                                    <? if ($say != 0) { ?>
+                                                        </h4>
+                                                        <span class="label label-danger">( <? echo $say; ?> )</span>
+                                                    <? } ?>
+                                                </a></li>
+                                            <?
+                                            $uye = $_SESSION["uye"];
+                                            $sql = $db->query("SELECT * FROM siparisler WHERE alici = '$uye' and durum = '1'");
+                                            $say = $sql->rowCount();
+                                            ?>
+                                            <li><a href="index.php?page=alisislemlerim">» Alış İşlemlerim
+                                                    <? if ($say != 0) { ?>
+                                                        </h4>
+                                                        <span class="label label-danger">( <? echo $say; ?> )</span>
+                                                    <? } ?>
+                                                </a></li>
+                                            <?
+                                            $uye = $_SESSION["uye"];
+                                            $sql = $db->query("SELECT * FROM odemeler WHERE uyeId = '$uye'");
+                                            $say = $sql->rowCount();
+                                            ?>
+                                            <li><a href="index.php?page=odemebildirimi">» Ödeme Bildirimi
+                                                    <? if ($say != 0) { ?>
+                                                        </h4>
+                                                        <span class="label label-danger">( <? echo $say; ?> )</span>
+                                                    <? } ?>
+                                                </a></li>
+                                            <li><a href="index.php?page=favoriilanlarim">» Favori İlanlarım</a>
+                                            </li>
+
+                                            <li><a href="/index.php?page=membership">» Üyeliğim</a></li>
+                                            <li><a href="/index.php?page=exit">» Çıkış</a></li>
+                                        </ul>
+                                    </li>
+                                    <li style="font-size:12px;font-weight:600;">
+                                        <a href="index.php?page=message">
+                                            <i title="Mesajlarım" class="fa fa-envelope fa-2x"
+                                               aria-hidden="true">
+                                            </i>
+                                        </a>
+                                    </li>
+                                    <li style="font-size:12px;font-weight:600;">
+                                        <a href="index.php?page=favoriilanlarim">
+                                            <i title="Favori İlanlarım" class="fa fa-star-o fa-2x"
+                                               aria-hidden="true">
+                                            </i>
+                                        </a>
+                                    </li>
+                                    <li style="font-size:12px;font-weight:600;">
+                                        <a href="index.php?page=exit">
+                                            <i title="<? echo $_SESSION['adsoyad']; ?> Oturumunu Kapat"
+                                               class="fa fa-sign-out fa-2x" aria-hidden="true">
+                                            </i>
+                                        </a>
+                                    </li>
+                                <? } ?>
+                            </ul>
+                        </div>
+                        <div style="flex: 1;display: flex;justify-content: flex-end;">
+                            <a href="<?php echo $base_url; ?>index.php?page=add" class="btn btn-dafault button20">
+                                <i class="fa fa-plus-square" aria-hidden="true"></i> ÜCRETSİZ İLAN VER
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
-            <form action="<?php echo $base_url; ?>index.php" method="get">
-                <div class="logo hidden-xs" style="margin-top:12px;"><? echo banner(6); ?></div>
-
-                <div class="row">
-
-                    <div class="col-md-9 col-sm-12 col-xs-12 search-list hidden-xs">
-
-
-                        <input type="hidden" name="page" value="search">
-                        <h3 class="search-h3"></h3>
-                        <div id="custom-search-input">
-
-                            <div class="input-group col-md-12">
-                                <b>
-                                    <input name="keyword" type="text" class="form-control"
-                                           placeholder="Kelime Veya İlan Numarasına Göre Ara..." required/>
-                                </b>
-                                <span class="input-group-btn">
-                                    <button class="btn btn-info" type="submit">
-                                        <i class="glyphicon glyphicon-search"></i>
-                                    </button>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </form>
-            <a href="<?php echo $base_url; ?>index.php?page=add" class="btn btn-dafault button20">
-                <i class="fa fa-plus-square" aria-hidden="true"></i> ÜCRETSİZ İLAN VER
-            </a>
-            <a href="javascript:void(0)" data-toggle="modal" data-target="#myModal" class="btn btn-dafault button328">
-                Hızlı Ara
-            </a>
         </div>
-
     </div>
 
     <div class="container">
