@@ -1,0 +1,3 @@
+Options +FollowSymlinks 
+RewriteEngine On
+ReWriteRule files/(.*)/thumbnail/no.png$ files/no.png [L,NC]
