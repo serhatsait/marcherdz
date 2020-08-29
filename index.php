@@ -160,28 +160,30 @@ define('access', true);
                 <div class="top-line hidden-xs">
                     <div class="wrapper">
                         <div class="logo hidden-xs" style="flex: 1;"><? echo banner(6); ?></div>
-                        <form action="<?php echo $base_url; ?>index.php" method="get" style="flex: 1;">
-                            <div class="search-list hidden-xs">
-                                <div id="custom-search-input">
-                                    <div class="input-group">
-                                        <b>
-                                            <input name="keyword" type="text" class="form-control"
-                                                   placeholder="Kelime Veya İlan Numarasına Göre Ara..." required/>
-                                        </b>
-                                        <span class="input-group-btn">
+                        <div class="header-search-bar">
+                            <form action="<?php echo $base_url; ?>index.php" method="get">
+                                <div class="search-list hidden-xs">
+                                    <div id="custom-search-input">
+                                        <div class="input-group">
+                                            <b>
+                                                <input name="keyword" type="text" class="form-control"
+                                                       placeholder="Kelime Veya İlan Numarasına Göre Ara..." required/>
+                                            </b>
+                                            <span class="input-group-btn">
                                                 <button class="btn btn-info" type="submit">
                                                     <i class="glyphicon glyphicon-search"></i>
                                                 </button>
                                             </span>
+                                        </div>
                                     </div>
                                 </div>
+                            </form>
+                            <div id="flash_search">
+                                <a href="javascript:void(0)" data-toggle="modal" data-target="#myModal"
+                                   class="btn btn-dafault button328">
+                                    Hızlı Ara
+                                </a>
                             </div>
-                        </form>
-                        <div id="flash_search" style="flex: 1;">
-                            <a href="javascript:void(0)" data-toggle="modal" data-target="#myModal"
-                               class="btn btn-dafault button328">
-                                Hızlı Ara
-                            </a>
                         </div>
                         <div style="flex: 1;display: flex;justify-content: center;">
                             <ul class="nav navbar-nav hidden-xs">
@@ -285,21 +287,21 @@ define('access', true);
                                             <li><a href="/index.php?page=exit">» Çıkış</a></li>
                                         </ul>
                                     </li>
-                                    <li style="font-size:12px;font-weight:600;">
+                                    <li style="font-size:9px;font-weight:600;margin: 0 8px;">
                                         <a href="index.php?page=message">
                                             <i title="Mesajlarım" class="fa fa-envelope fa-2x"
                                                aria-hidden="true">
                                             </i>
                                         </a>
                                     </li>
-                                    <li style="font-size:12px;font-weight:600;">
+                                    <li style="font-size:9px;font-weight:600;margin-right: 8px;">
                                         <a href="index.php?page=favoriilanlarim">
                                             <i title="Favori İlanlarım" class="fa fa-star-o fa-2x"
                                                aria-hidden="true">
                                             </i>
                                         </a>
                                     </li>
-                                    <li style="font-size:12px;font-weight:600;">
+                                    <li style="font-size:9px;font-weight:600;">
                                         <a href="index.php?page=exit">
                                             <i title="<? echo $_SESSION['adsoyad']; ?> Oturumunu Kapat"
                                                class="fa fa-sign-out fa-2x" aria-hidden="true">
