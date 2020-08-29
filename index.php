@@ -177,7 +177,7 @@ define('access', true);
                                 </div>
                             </div>
                         </form>
-                        <div style="flex: 1;">
+                        <div id="flash_search" style="flex: 1;">
                             <a href="javascript:void(0)" data-toggle="modal" data-target="#myModal"
                                class="btn btn-dafault button328">
                                 Hızlı Ara
@@ -188,10 +188,10 @@ define('access', true);
                                 <? if ($_SESSION['uye'] == "") { ?>
 
 
-                                    <li style="font-size:12px;font-weight:600;margin-right: 20px;">
+                                    <li class="navbar-li-index" style="font-size:12px;font-weight:600;margin-right: 20px;">
                                         <a href="/register/"><i class="fa fa-user-plus" aria-hidden="true"></i>
                                             Üye Ol</a></li>
-                                    <li style="font-size:12px;font-weight:600;">
+                                    <li class="navbar-li-index" style="font-size:12px;font-weight:600;">
                                         <a href="/login/"><i class="fa fa-sign-in" aria-hidden="true"></i> Giriş
                                             Yap</a></li>
                                 <? } else { ?>
@@ -309,7 +309,7 @@ define('access', true);
                                 <? } ?>
                             </ul>
                         </div>
-                        <div style="flex: 1;display: flex;justify-content: flex-end;">
+                        <div class="free_ilan" style="flex: 1;display: flex;justify-content: flex-end;">
                             <a href="<?php echo $base_url; ?>index.php?page=add" class="btn btn-dafault button20">
                                 <i class="fa fa-plus-square" aria-hidden="true"></i> ÜCRETSİZ İLAN VER
                             </a>
