@@ -5,7 +5,7 @@ include 'language/' . $lang . '.php';
 define('access', true);
 ?>
     <!DOCTYPE html>
-    <html lang="fr">
+    <html lang="en">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -311,7 +311,7 @@ define('access', true);
                         </div>
                         <div class="free_ilan" style="flex: 1;display: flex;justify-content: flex-end;">
                             <a href="<?php echo $base_url; ?>index.php?page=add" class="btn btn-dafault button20">
-                                <i class="fa fa-plus-square" aria-hidden="true"></i> Déposez votre annonce gratuitement
+                                <i class="fa fa-plus-square" aria-hidden="true"></i> Test
                             </a>
                         </div>
                     </div>
