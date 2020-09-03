@@ -307,7 +307,7 @@ body {
     background-color: #ffe100;
     color: #2c2c2c;
     font-weight: 500;
-    width: 180px;
+    width: fit-content;
 }
 
 .button328 {
