@@ -311,7 +311,7 @@ define('access', true);
                         </div>
                         <div class="free_ilan" style="flex: 1;display: flex;justify-content: flex-end;">
                             <a href="<?php echo $base_url; ?>index.php?page=add" class="btn btn-dafault button20">
-                                <i class="fa fa-plus-square" aria-hidden="true"></i> Test 2
+                                <i class="fa fa-plus-square" aria-hidden="true"></i> dzdzdzzd test2
                             </a>
                         </div>
                     </div>
