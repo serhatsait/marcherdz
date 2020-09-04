@@ -2,11 +2,8 @@
 ob_start();
 include 'functions.php';
 include 'language/' . $lang . '.php';
-include 'defaultLang.php';
 define('access', true);
 ?>
-    <a href="defaultLang.php"></a>
-
     <!DOCTYPE html>
     <html lang="en">
     <head>
@@ -902,7 +899,7 @@ define('access', true);
                     <script type="text/javascript">
                         function googleTranslateElementInit2() {
                             new google.translate.TranslateElement({
-                                pageLanguage: 'tr',
+                                pageLanguage: 'fr',
                                 autoDisplay: false
                             }, 'google_translate_element2');
                         }
