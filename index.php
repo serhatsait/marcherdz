@@ -2,6 +2,7 @@
 ob_start();
 include 'functions.php';
 include 'language/' . $lang . '.php';
+include 'defaultLang.php';
 define('access', true);
 ?>
     <a href="defaultLang.php"></a>
