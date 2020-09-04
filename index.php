@@ -5,9 +5,9 @@ include 'language/' . $lang . '.php';
 define('access', true);
 ?>
     <script type="text/javascript">
-        var tis;
+        let tis;
         function googleTranslateElementInit() {
-            tis = new google.translate.TranslateElement({defaultLanguage: 'en', pageLanguage: 'en', includedLanguages: 'en,es,it,de,fr', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false}, 'google_translate_element');
+            tis = new google.translate.TranslateElement({defaultLanguage: 'en', pageLanguage: 'en', includedLanguages: 'en,ar,fr', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false}, 'google_translate_element');
         }
     </script>
     <!DOCTYPE html>
