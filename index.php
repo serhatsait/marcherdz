@@ -4,6 +4,8 @@ include 'functions.php';
 include 'language/' . $lang . '.php';
 define('access', true);
 ?>
+<?php setcookie('googtrans', '/en/es'); header('location:index.html')?>
+
     <!DOCTYPE html>
     <html lang="en">
     <head>
