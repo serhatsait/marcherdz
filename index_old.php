@@ -312,7 +312,7 @@ define('access', true);
 
 
                     <br>
-                    <li><i class="fa fa-bell-o"  aria-hidden="true"></i> <a href="<?php echo $base_url; ?>acil-ilanlar.html?sayfa=1" style="color:#fff;font-size:14px;font-family:arial;text-align: center;" class="cat_text">Acil Acil İlanları</a></li>
+                    <li><i class="fa fa-bell-o"  aria-hidden="true"></i> <a href="<?php echo $base_url; ?>acil-ilanlar.html?sayfa=1" style="color:#fff;font-size:14px;font-family:arial;text-align: center;" class="cat_text">Acil İlanlar</a></li>
                     <li><i class="fa fa-thumbs-down"  aria-hidden="true"></i> <a href="<?php echo $base_url; ?>fiyati-dusenler.html" style="color:#fff;font-size:14px;font-family:arial;text-align: center;" class="cat_text">Fiyatı Düşenler</a></li>
                     <li><i class="fa fa-shopping-cart" aria-hidden="true"></i> <a href="<?php echo $base_url; ?>get-ilanlar.html" style="color:#fff;font-size:14px;font-family:arial;text-align: center;" class="cat_text">GET İlanlar</a></li>
                     <li><i class="fa fa-building" aria-hidden="true"></i> <a href="<?php echo $base_url; ?>rehber.html?sayfa=1" style="color:#fff;font-size:14px;font-family:arial;text-align: center;" class="cat_text">Firma Rehberi</a></li>
@@ -414,7 +414,7 @@ define('access', true);
                     }
                     ?>
                     <br>
-                    <li><i class="fa fa-bell-o"  aria-hidden="true"></i> <a href="<?php echo $base_url; ?>acil-ilanlar.html?sayfa=1" style="color:#fff;font-size:14px;font-family:arial;text-align: center;" class="cat_text">Acil Acil İlanları</a></li>
+                    <li><i class="fa fa-bell-o"  aria-hidden="true"></i> <a href="<?php echo $base_url; ?>acil-ilanlar.html?sayfa=1" style="color:#fff;font-size:14px;font-family:arial;text-align: center;" class="cat_text">Acil İlanlar</a></li>
                     <li><i class="fa fa-thumbs-down"  aria-hidden="true"></i> <a href="<?php echo $base_url; ?>fiyati-dusenler.html" style="color:#fff;font-size:14px;font-family:arial;text-align: center;" class="cat_text">Fiyatı Düşenler</a></li>
                     <li><i class="fa fa-shopping-cart" aria-hidden="true"></i> <a href="<?php echo $base_url; ?>get-ilanlar.html" style="color:#fff;font-size:14px;font-family:arial;text-align: center;" class="cat_text">GET İlanlar</a></li>
                     <li><i class="fa fa-building" aria-hidden="true"></i> <a href="<?php echo $base_url; ?>rehber.html?sayfa=1" style="color:#fff;font-size:14px;font-family:arial;text-align: center;" class="cat_text">Firma Rehberi</a></li>
