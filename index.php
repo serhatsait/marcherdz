@@ -508,7 +508,7 @@ define('access', true);
                     <li><i class="fa fa-bell-o" aria-hidden="true"></i> <a
                                 href="<?php echo $base_url; ?>acil-ilanlar.html?sayfa=1"
                                 style="color:#fff;font-size:14px;font-family:arial;text-align: center;"
-                                class="cat_text">Acil Acil İlanları</a></li>
+                                class="cat_text">Acil İlanlar</a></li>
                     <li><i class="fa fa-thumbs-down" aria-hidden="true"></i> <a
                                 href="<?php echo $base_url; ?>fiyati-dusenler.html"
                                 style="color:#fff;font-size:14px;font-family:arial;text-align: center;"
