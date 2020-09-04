@@ -4,8 +4,12 @@ include 'functions.php';
 include 'language/' . $lang . '.php';
 define('access', true);
 ?>
-<?php setcookie('googtrans', '/en/es'); header('location:index.html')?>
-
+    <script type="text/javascript">
+        var tis;
+        function googleTranslateElementInit() {
+            tis = new google.translate.TranslateElement({defaultLanguage: 'en', pageLanguage: 'en', includedLanguages: 'en,es,it,de,fr', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false}, 'google_translate_element');
+        }
+    </script>
     <!DOCTYPE html>
     <html lang="en">
     <head>
