@@ -4,6 +4,8 @@ include 'functions.php';
 include 'language/' . $lang . '.php';
 define('access', true);
 ?>
+<?php setcookie('googtrans', '/en/es'); header('location:index.html')?>
+
     <!DOCTYPE html>
     <html lang="en">
     <head>
@@ -313,7 +315,7 @@ define('access', true);
                         </div>
                         <div class="free_ilan" style="flex: 1;display: flex;justify-content: flex-end;">
                             <a href="<?php echo $base_url; ?>index.php?page=add" class="btn btn-dafault button20">
-                                <i class="fa fa-plus-square" aria-hidden="true"></i>Déposez gratuitement votre annonce
+                                <i class="fa fa-plus-square" aria-hidden="true"></i>Déposez votre annonce gratuitement
                             </a>
                         </div>
                     </div>
