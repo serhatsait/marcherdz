@@ -4,8 +4,6 @@ include 'functions.php';
 include 'language/' . $lang . '.php';
 define('access', true);
 ?>
-<?php setcookie('googtrans', '/tr/fr'); header('location:index.html')?>
-
     <!DOCTYPE html>
     <html lang="en">
     <head>
@@ -315,7 +313,7 @@ define('access', true);
                         </div>
                         <div class="free_ilan" style="flex: 1;display: flex;justify-content: flex-end;">
                             <a href="<?php echo $base_url; ?>index.php?page=add" class="btn btn-dafault button20">
-                                <i class="fa fa-plus-square" aria-hidden="true"></i>ÜCRETSİZ İLAN VER
+                                <i class="fa fa-plus-square" aria-hidden="true"></i>Déposez votre annonce gratuitement
                             </a>
                         </div>
                     </div>
@@ -510,7 +508,7 @@ define('access', true);
                     <li><i class="fa fa-bell-o" aria-hidden="true"></i> <a
                                 href="<?php echo $base_url; ?>acil-ilanlar.html?sayfa=1"
                                 style="color:#fff;font-size:14px;font-family:arial;text-align: center;"
-                                class="cat_text">Acil İlanlar</a></li>
+                                class="cat_text">Acil Acil İlanları</a></li>
                     <li><i class="fa fa-thumbs-down" aria-hidden="true"></i> <a
                                 href="<?php echo $base_url; ?>fiyati-dusenler.html"
                                 style="color:#fff;font-size:14px;font-family:arial;text-align: center;"
