@@ -560,7 +560,7 @@ display:block;
 } 
 </style>
     <div class="panel panel-default">
-        <div class="panel-heading"><i class="fa fa-star-o" aria-hidden="true"></i> Anasayfa Vitrini İlanları</div>
+        <div class="panel-heading"><i class="fa fa-star-o" aria-hidden="true"></i> Top annonces</div>
         <div class="panel-body">
             <div class="row no-gutter">
                 <div class="col-xs-8">
