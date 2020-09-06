@@ -85,7 +85,7 @@ if ($toplam > 0) {
             $toplam
         ));
         $v1 = array(
-            '<tr><td width="150">Vitrine/td><td  width="100">' . $dp1 . ' Hafta</td><td>' . $dp1_tutar . '</td>'
+            '<tr><td width="150">Vitrine</td><td  width="100">' . $dp1 . ' Hafta</td><td>' . $dp1_tutar . '</td>'
         );
     }
 

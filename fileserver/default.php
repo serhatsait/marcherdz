@@ -10,7 +10,7 @@ return $sql->rowCount();
 
 <div class="container top15">
   <div class="panel panel-default">
-    <div class="panel-heading">Vitrinespan class="pull-right"><a href="anasayfa-ilanlari.html" >Tümünü Görüntüle</a></span></div>
+    <div class="panel-heading">Vitrine<span class="pull-right"><a href="anasayfa-ilanlari.html" >Tümünü Görüntüle</a></span></div>
     <div class="panel-body">
       <div class="row no-pad">
         <?
