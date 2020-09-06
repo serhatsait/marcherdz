@@ -54,7 +54,7 @@ $row = $sql->fetch(PDO::FETCH_ASSOC);
                 <div class="panel-heading"><i class="fa fa-list" aria-hidden="true"></i> Kategoriler</div>
                 <div class="panel-body">
 				<b><div class="subcat_special">
-	<i class="fa fa-bell-o" style="color: #20568a;" aria-hidden="true"></i> <a href="<?php echo $base_url; ?>acil-ilanlar.html?sayfa=1" style="color:#545454" class="cat_text">Acil Acil İlanları</a><div style="clear:both"></div></div>
+	<i class="fa fa-bell-o" style="color: #20568a;" aria-hidden="true"></i> <a href="<?php echo $base_url; ?>acil-ilanlar.html?sayfa=1" style="color:#545454" class="cat_text">Acil İlanları</a><div style="clear:both"></div></div>
 	<div class="subcat_special">
 	<i class="fa fa-thumbs-down" style="color: #20568a;" aria-hidden="true"></i> <a href="<?php echo $base_url; ?>fiyati-dusenler.html" style="color:#545454" class="cat_text">Fiyatı Düşenler</a><div style="clear:both"></div></div>
 <div class="subcat_special">
