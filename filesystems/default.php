@@ -172,7 +172,7 @@ TeknodizaynSayac();
 
             <div class="panel panel-default">
                 <div class="panel-heading"><i class="fa fa-star" aria-hidden="true"></i> Vitrine<span
-                            class="pull-right"><a href="anasayfa-ilanlari.html">Tümünü Görüntüle</a></span></div>
+                            class="pull-right"><a href="anasayfa-ilanlari.html">Voir tout</a></span></div>
                 <div class="panel-body">
                     <div class="row no-gutter son-eklenen">
                         <?
@@ -301,7 +301,7 @@ TeknodizaynSayac();
 
             <div class="panel panel-default">
                 <div class="panel-heading"><i class="fa fa-briefcase" aria-hidden="true"></i> Son Eklenen Firmalar<span
-                            class="pull-right"><a href="rehber.html" class="hidden-xs">Tümünü Görüntüle</a></span></div>
+                            class="pull-right"><a href="rehber.html" class="hidden-xs">Voir tout</a></span></div>
                 <div class="panel-body">
                     <div class="row no-pad">
                         <?
@@ -367,7 +367,7 @@ TeknodizaynSayac();
             <div class="panel panel-default">
                 <div class="panel-heading"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Son Eklenen
                     Mağazalar<span class="pull-right"><a href="magazalar.html"
-                                                         class="hidden-xs">Tümünü Görüntüle</a></span></div>
+                                                         class="hidden-xs">Voir tout</a></span></div>
                 <div class="panel-body">
                     <div class="row no-gutter">
                         <?

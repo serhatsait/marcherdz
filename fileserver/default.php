@@ -10,7 +10,7 @@ return $sql->rowCount();
 
 <div class="container top15">
   <div class="panel panel-default">
-    <div class="panel-heading">Vitrine<span class="pull-right"><a href="anasayfa-ilanlari.html" >Tümünü Görüntüle</a></span></div>
+    <div class="panel-heading">Vitrine<span class="pull-right"><a href="anasayfa-ilanlari.html" >Voir tout</a></span></div>
     <div class="panel-body">
       <div class="row no-pad">
         <?
@@ -93,7 +93,7 @@ return $sql->rowCount();
       </div>
  <div style="margin-bottom:10px; margin-top:10px"><? echo banner(2); ?></div>
       <div class="panel panel-default">
-        <div class="panel-heading">Son Eklenen Acil İlanlar<span class="pull-right"><a href="acil-ilanlar.html" >Tümünü Görüntüle</a></span></div>
+        <div class="panel-heading">Son Eklenen Acil İlanlar<span class="pull-right"><a href="acil-ilanlar.html" >Voir tout</a></span></div>
         <div class="panel-body">
           <div class="row no-pad">
             <?
@@ -142,7 +142,7 @@ return $sql->rowCount();
     </div>
   </div>
   <div class="panel panel-default">
-    <div class="panel-heading">Son Eklenen Mağazalar<span class="pull-right"><a href="magazalar.html" >Tümünü Görüntüle</a></span></div>
+    <div class="panel-heading">Son Eklenen Mağazalar<span class="pull-right"><a href="magazalar.html" >Voir tout</a></span></div>
     <div class="panel-body">
       <div class="row no-pad">
         <?
