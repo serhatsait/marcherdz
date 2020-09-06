@@ -277,7 +277,7 @@ define('access', true);
                         </div>
             </form>
             <a href="<?php echo $base_url; ?>index.php?page=add" class="btn btn-dafault button20"><i class="fa fa-plus-square" aria-hidden="true"></i> ÜCRETSİZ İLAN VER</a>
-            <a href="javascript:void(0)" data-toggle="modal" data-target="#myModal" class="btn btn-dafault button328"> Hızlı Ara</a>
+            <a href="javascript:void(0)" data-toggle="modal" data-target="#myModal" class="btn btn-dafault button328"> Recherche rapide</a>
         </div>
 
     </div>

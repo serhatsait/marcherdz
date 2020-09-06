@@ -181,7 +181,7 @@ define('access', true);
                             <div id="flash_search">
                                 <a href="javascript:void(0)" data-toggle="modal" data-target="#myModal"
                                    class="btn btn-dafault button328">
-                                    Hızlı Ara
+                                    Recherche rapide
                                 </a>
                             </div>
                         </div>
