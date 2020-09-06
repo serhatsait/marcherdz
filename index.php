@@ -194,8 +194,7 @@ define('access', true);
                                         <a href="/register/"><i class="fa fa-user-plus" aria-hidden="true"></i>
                                             S'inscrire</a></li>
                                     <li class="navbar-li-index" style="font-size:12px;font-weight:600;">
-                                        <a href="/login/"><i class="fa fa-sign-in" aria-hidden="true"></i> Giriş
-                                            Yap</a></li>
+                                        <a href="/login/"><i class="fa fa-sign-in" aria-hidden="true"></i> S'identifier</a></li>
                                 <? } else { ?>
                                     <li class="dropdown"><a href="#"
                                                             class="dropdown-toggle btn btn-dafault button2"
