@@ -192,7 +192,7 @@ define('access', true);
 
                                     <li class="navbar-li-index" style="font-size:12px;font-weight:600;margin-right: 20px;">
                                         <a href="/register/"><i class="fa fa-user-plus" aria-hidden="true"></i>
-                                            Üye Ol</a></li>
+                                            S'inscrire</a></li>
                                     <li class="navbar-li-index" style="font-size:12px;font-weight:600;">
                                         <a href="/login/"><i class="fa fa-sign-in" aria-hidden="true"></i> Giriş
                                             Yap</a></li>

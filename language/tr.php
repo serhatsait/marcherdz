@@ -2,7 +2,7 @@
 $lg[0] = "Ücretsiz İlan Ver";
 $lg[1] = "Kelime, ilan no veya mağaza adı";
 $lg[2] = "Giriş Yap";
-$lg[3] = "Üye Ol";
+$lg[3] = "S'inscrire";
 $lg[4] = "İstediğiniz Kelime, ilan no ve mağaza adını yazarak arayabilirsiniz.";
 $lg[5] = "Anasayfa";
 $lg[6] = "Mağazalar";
