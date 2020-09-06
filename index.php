@@ -167,7 +167,7 @@ define('access', true);
                                         <div class="input-group">
                                             <b>
                                                 <input name="keyword" type="text" class="form-control"
-                                                       placeholder="Kelime Veya İlan Numarasına Göre Ara..." required/>
+                                                       placeholder="Recherchez par mot ou numéro de l'annonce ..." required/>
                                             </b>
                                             <span class="input-group-btn">
                                                 <button class="btn btn-info" type="submit">

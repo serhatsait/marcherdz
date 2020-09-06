@@ -270,7 +270,7 @@ define('access', true);
                         <div id="custom-search-input">
 
                             <div class="input-group col-md-12">
-                                <b><input name="keyword" type="text" class="form-control" placeholder="Kelime Veya İlan Numarasına Göre Ara..." required /></b>
+                                <b><input name="keyword" type="text" class="form-control" placeholder="Recherchez par mot ou numéro de l'annonce ..." required /></b>
                                 <span class="input-group-btn">
               <button class="btn btn-info" type="submit"> <i class="glyphicon glyphicon-search"></i> </button>
               </span></div>
