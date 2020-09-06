@@ -171,7 +171,7 @@ TeknodizaynSayac();
 
 
             <div class="panel panel-default">
-                <div class="panel-heading"><i class="fa fa-star" aria-hidden="true"></i> Anasayfa Vitrini<span
+                <div class="panel-heading"><i class="fa fa-star" aria-hidden="true"></i> Vitrinespan
                             class="pull-right"><a href="anasayfa-ilanlari.html">Tümünü Görüntüle</a></span></div>
                 <div class="panel-body">
                     <div class="row no-gutter son-eklenen">

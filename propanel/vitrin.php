@@ -77,7 +77,7 @@ echo '<script> window.location.href = "index.php?page='.$return.''; if ($return 
           - İlanı vitrinden çıkartmak için bugünün tarihinden geri bir tarihe almanız gerekmektedir</div>
         <div class="row">
           <div class="col-md-6">
-            <label>Anasayfa Vitrini</label>
+            <label>Vitrine/label>
             <div class="input-group">
               <div class="input-group-addon"> <i class="fa fa-calendar"></i> </div>
               <input class="form-control" name="anasayfa" id="anasayfa" placeholder="Gün/Ay/Yıl" type="text" data-mask="" data-inputmask="'alias': 'dd/mm/yyyy'">
