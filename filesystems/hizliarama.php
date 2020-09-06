@@ -122,7 +122,7 @@ $sayfa = $_GET["sayfa"];
                             }
 
                             }
-                            echo '<li class="sub1"><a href="index.php">» Tüm Kategoriler</span></a></li>';
+                            echo '<li class="sub1"><a href="index.php">»  Toutes catégories</span></a></li>';
                             if ($_GET['daralt'] != ""){
                             $urlek = preg_replace("/\/kategori-(.*?)-(.*?).html/", "", $_SERVER['REQUEST_URI']);
                             $urlek = str_replace("?","",$urlek);
