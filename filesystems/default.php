@@ -232,7 +232,7 @@ TeknodizaynSayac();
             <div style="margin-top:10px; margin-bottom:10px"><? echo banner(1); ?></div>
 
             <div class="panel panel-default">
-                <div class="panel-heading"><i class="fa fa-clock-o" aria-hidden="true"></i> Son Eklenen İlanlar</div>
+                <div class="panel-heading"><i class="fa fa-clock-o" aria-hidden="true"></i> Dernières annonces ajoutées</div>
                 <div class="panel-body">
                     <div class="row no-gutter">
                         <?
@@ -300,7 +300,7 @@ TeknodizaynSayac();
             </style>
 
             <div class="panel panel-default">
-                <div class="panel-heading"><i class="fa fa-briefcase" aria-hidden="true"></i> Son Eklenen Firmalar<span
+                <div class="panel-heading"><i class="fa fa-briefcase" aria-hidden="true"></i> Dernières entreprises ajoutées<span
                             class="pull-right"><a href="rehber.html" class="hidden-xs">Voir tout</a></span></div>
                 <div class="panel-body">
                     <div class="row no-pad">

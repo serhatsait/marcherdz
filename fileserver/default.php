@@ -142,7 +142,7 @@ return $sql->rowCount();
     </div>
   </div>
   <div class="panel panel-default">
-    <div class="panel-heading">Son Eklenen Mağazalar<span class="pull-right"><a href="magazalar.html" >Voir tout</a></span></div>
+    <div class="panel-heading">Magasins récemment ajoutés<span class="pull-right"><a href="magazalar.html" >Voir tout</a></span></div>
     <div class="panel-body">
       <div class="row no-pad">
         <?
