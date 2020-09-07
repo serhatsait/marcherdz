@@ -15,7 +15,7 @@ if ($sayfa == ""){ $sayfa = 1; }
                 <div class="panel-heading">Kategoriler</div>
                 <div class="panel-body">
                     <div style="max-height:400px; overflow-y:auto; ">
-                        <ul class="notranslate category">
+                        <ul class="notranslate">
                             <?
 							$sql = $db->query("SELECT * FROM bkategoriler ORDER BY kategoriadi ASC");
 							while ($a = $sql->fetch(PDO::FETCH_ASSOC)) {
