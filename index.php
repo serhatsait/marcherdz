@@ -4,9 +4,8 @@ include 'functions.php';
 include 'language/' . $lang . '.php';
 define('access', true);
 ?>
-
     <!DOCTYPE html>
-    <html lang="en">
+    <html lang="fr">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -168,7 +167,7 @@ define('access', true);
                                         <div class="input-group">
                                             <b>
                                                 <input name="keyword" type="text" class="form-control"
-                                                       placeholder="Kelime Veya İlan Numarasına Göre Ara..." required/>
+                                                       placeholder="Recherchez par mot ou numéro de l'annonce ..." required/>
                                             </b>
                                             <span class="input-group-btn">
                                                 <button class="btn btn-info" type="submit">
@@ -182,7 +181,7 @@ define('access', true);
                             <div id="flash_search">
                                 <a href="javascript:void(0)" data-toggle="modal" data-target="#myModal"
                                    class="btn btn-dafault button328">
-                                    Hızlı Ara
+                                    Recherche rapide
                                 </a>
                             </div>
                         </div>
@@ -193,10 +192,9 @@ define('access', true);
 
                                     <li class="navbar-li-index" style="font-size:12px;font-weight:600;margin-right: 20px;">
                                         <a href="/register/"><i class="fa fa-user-plus" aria-hidden="true"></i>
-                                            Üye Ol</a></li>
+                                            S'inscrire</a></li>
                                     <li class="navbar-li-index" style="font-size:12px;font-weight:600;">
-                                        <a href="/login/"><i class="fa fa-sign-in" aria-hidden="true"></i> Giriş
-                                            Yap</a></li>
+                                        <a href="/login/"><i class="fa fa-sign-in" aria-hidden="true"></i> S'identifier</a></li>
                                 <? } else { ?>
                                     <li class="dropdown"><a href="#"
                                                             class="dropdown-toggle btn btn-dafault button2"
@@ -509,7 +507,7 @@ define('access', true);
                     <li><i class="fa fa-bell-o" aria-hidden="true"></i> <a
                                 href="<?php echo $base_url; ?>acil-ilanlar.html?sayfa=1"
                                 style="color:#fff;font-size:14px;font-family:arial;text-align: center;"
-                                class="cat_text">Acil Acil İlanları</a></li>
+                                class="cat_text">Acil İlanları</a></li>
                     <li><i class="fa fa-thumbs-down" aria-hidden="true"></i> <a
                                 href="<?php echo $base_url; ?>fiyati-dusenler.html"
                                 style="color:#fff;font-size:14px;font-family:arial;text-align: center;"
@@ -900,7 +898,7 @@ define('access', true);
                     <script type="text/javascript">
                         function googleTranslateElementInit2() {
                             new google.translate.TranslateElement({
-                                pageLanguage: 'tr',
+                                pageLanguage: 'fr',
                                 autoDisplay: false
                             }, 'google_translate_element2');
                         }

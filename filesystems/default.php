@@ -74,7 +74,7 @@ TeknodizaynSayac();
                         <div class="subcat_special">
                             <i class="fa fa-bell-o" style="color: #20568a;" aria-hidden="true"></i> <a
                                     href="<?php echo $base_url; ?>acil-ilanlar.html?sayfa=1" style="color:#545454"
-                                    class="cat_text">Acil İlanlar</a>
+                                    class="cat_text">Acil İlanları</a>
                             <div style="clear:both"></div>
                         </div>
                         <div class="subcat_special">
@@ -171,8 +171,8 @@ TeknodizaynSayac();
 
 
             <div class="panel panel-default">
-                <div class="panel-heading"><i class="fa fa-star" aria-hidden="true"></i> Anasayfa Vitrini<span
-                            class="pull-right"><a href="anasayfa-ilanlari.html">Tümünü Görüntüle</a></span></div>
+                <div class="panel-heading"><i class="fa fa-star" aria-hidden="true"></i> Vitrine<span
+                            class="pull-right"><a href="anasayfa-ilanlari.html">Voir tout</a></span></div>
                 <div class="panel-body">
                     <div class="row no-gutter son-eklenen">
                         <?
@@ -232,7 +232,7 @@ TeknodizaynSayac();
             <div style="margin-top:10px; margin-bottom:10px"><? echo banner(1); ?></div>
 
             <div class="panel panel-default">
-                <div class="panel-heading"><i class="fa fa-clock-o" aria-hidden="true"></i> Son Eklenen İlanlar</div>
+                <div class="panel-heading"><i class="fa fa-clock-o" aria-hidden="true"></i> Dernières annonces ajoutées</div>
                 <div class="panel-body">
                     <div class="row no-gutter">
                         <?
@@ -300,8 +300,8 @@ TeknodizaynSayac();
             </style>
 
             <div class="panel panel-default">
-                <div class="panel-heading"><i class="fa fa-briefcase" aria-hidden="true"></i> Son Eklenen Firmalar<span
-                            class="pull-right"><a href="rehber.html" class="hidden-xs">Tümünü Görüntüle</a></span></div>
+                <div class="panel-heading"><i class="fa fa-briefcase" aria-hidden="true"></i> Dernières entreprises ajoutées<span
+                            class="pull-right"><a href="rehber.html" class="hidden-xs">Voir tout</a></span></div>
                 <div class="panel-body">
                     <div class="row no-pad">
                         <?
@@ -365,9 +365,8 @@ TeknodizaynSayac();
             <div style="margin-top:10px; margin-bottom:10px"><? echo banner(3); ?></div>
 
             <div class="panel panel-default">
-                <div class="panel-heading"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Son Eklenen
-                    Mağazalar<span class="pull-right"><a href="magazalar.html"
-                                                         class="hidden-xs">Tümünü Görüntüle</a></span></div>
+                <div class="panel-heading"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Magasins récemment ajoutés<span class="pull-right"><a href="magazalar.html"
+                                                         class="hidden-xs">Voir tout</a></span></div>
                 <div class="panel-body">
                     <div class="row no-gutter">
                         <?

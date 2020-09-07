@@ -124,7 +124,7 @@ $sayfa = $_GET["sayfa"];
 
                             }
 							if ($id != 0){
-                            echo '<li class="sub1"><a href="rehber.html">» Tüm Kategoriler</span></a></li>';
+                            echo '<li class="sub1"><a href="rehber.html">»  Toutes catégories</span></a></li>';
 							}
                             if ($_GET['daralt'] != ""){
                             $urlek = preg_replace("/\/c-(.*?)-(.*?).html/", "", $_SERVER['REQUEST_URI']);

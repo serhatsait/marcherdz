@@ -152,7 +152,7 @@ $sayfa = $_GET["sayfa"];
                     } else {
                     echo '<div style="max-height:400px; overflow-y:auto; ">
                     <ul class="category">';
-                    echo '<li class="sub1"><a href="index.php">» Tüm Kategoriler</span></a></li>';
+                    echo '<li class="sub1"><a href="index.php">»  Toutes catégories</span></a></li>';
                     if ($_GET['daralt'] != ""){
                     $urlek = preg_replace("/\/c-(.*?)-(.*?).html/", "", $_SERVER['REQUEST_URI']);
                     $urlek = str_replace("?","",$urlek);
@@ -560,7 +560,7 @@ display:block;
 } 
 </style>
     <div class="panel panel-default">
-        <div class="panel-heading"><i class="fa fa-star-o" aria-hidden="true"></i> Anasayfa Vitrini İlanları</div>
+        <div class="panel-heading"><i class="fa fa-star-o" aria-hidden="true"></i> Top annonces</div>
         <div class="panel-body">
             <div class="row no-gutter">
                 <div class="col-xs-8">

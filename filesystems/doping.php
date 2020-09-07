@@ -40,7 +40,7 @@ $id = $_GET['id'];
                 <div class="row no-gutter">
                     <div class="col-xs-12 col-sm-6">
                         <div class="box ">
-                            <h5>Anasayfa Vitrini</h5>
+                            <h5>Vitrine</h5>
                             İlanınız her gün “milyonlarca kişinin ziyaret ettiği” sitemizin ana sayfasında yer alsın.
                             <select class="form-control" name="dp1">
                                 <option value="0">İstemiyorum</option>

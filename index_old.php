@@ -161,8 +161,8 @@ define('access', true);
                                         <? if ($_SESSION['uye'] == "") { ?>
 
 
-                                            <li style="margin-right:20px;margin-top:-19px;font-size:12px;font-weight:600;"><a href="/register/"><i class="fa fa-user-plus" aria-hidden="true"></i> Üye Ol</a></li>
-                                            <li style="margin-right:25px;margin-top:-19px;font-size:12px;font-weight:600;"><a href="/login/"><i class="fa fa-sign-in" aria-hidden="true"></i> Giriş Yap</a></li>
+                                            <li style="margin-right:20px;margin-top:-19px;font-size:12px;font-weight:600;"><a href="/register/"><i class="fa fa-user-plus" aria-hidden="true"></i> S'inscrire</a></li>
+                                            <li style="margin-right:25px;margin-top:-19px;font-size:12px;font-weight:600;"><a href="/login/"><i class="fa fa-sign-in" aria-hidden="true"></i>S'identifier</a></li>
                                         <? } else { ?>
                                             <li class="dropdown"> <a href="#" class="dropdown-toggle btn btn-dafault button2" style="margin-right: 25px;margin-top:-20px;z-index:1000;font-size:12px;font-weight:600;color: white;" data-toggle="dropdown" role="button"  aria-haspopup="true" aria-expanded="false"><? echo $_SESSION['adsoyad']; ?>&nbsp;&nbsp;<span class="caret"></span></a>
                                                 <ul class="dropdown-menu">
@@ -270,14 +270,14 @@ define('access', true);
                         <div id="custom-search-input">
 
                             <div class="input-group col-md-12">
-                                <b><input name="keyword" type="text" class="form-control" placeholder="Kelime Veya İlan Numarasına Göre Ara..." required /></b>
+                                <b><input name="keyword" type="text" class="form-control" placeholder="Recherchez par mot ou numéro de l'annonce ..." required /></b>
                                 <span class="input-group-btn">
               <button class="btn btn-info" type="submit"> <i class="glyphicon glyphicon-search"></i> </button>
               </span></div>
                         </div>
             </form>
             <a href="<?php echo $base_url; ?>index.php?page=add" class="btn btn-dafault button20"><i class="fa fa-plus-square" aria-hidden="true"></i> ÜCRETSİZ İLAN VER</a>
-            <a href="javascript:void(0)" data-toggle="modal" data-target="#myModal" class="btn btn-dafault button328"> Hızlı Ara</a>
+            <a href="javascript:void(0)" data-toggle="modal" data-target="#myModal" class="btn btn-dafault button328"> Recherche rapide</a>
         </div>
 
     </div>
@@ -290,8 +290,8 @@ define('access', true);
                 <i class="ac-kapasag fa fa-user fa-2x"><font style="font-size:18px;font-family:arial;text-align: center;font-weight:600;"></font></i>
                 <div class="mobil-menuqq">
                     <li><a href="<?php echo $base_url; ?>facebook.php"><i style="margin:5px;color:#fff;" class="fa fa-facebook-square" aria-hidden="true"></i><font style="color:#fff;font-size:14px;font-family:arial;text-align: center;">Facebook İle Bağlan</font></a></li>
-                    <li><a href="<?php echo $base_url; ?>login/"><i style="margin:5px;color:#fff;" class="fa fa-sign-in" aria-hidden="true"></i><font style="color:#fff;font-size:14px;font-family:arial;text-align: center;">Giriş yap</font></a></li>
-                    <li><a href="<?php echo $base_url; ?>register/"><i style="margin:5px;color:#fff;" class="fa fa-user-plus" aria-hidden="true"></i><font style="color:#fff;font-size:14px;font-family:arial;text-align: center;">Üye Ol</font></a></li>
+                    <li><a href="<?php echo $base_url; ?>login/"><i style="margin:5px;color:#fff;" class="fa fa-sign-in" aria-hidden="true"></i><font style="color:#fff;font-size:14px;font-family:arial;text-align: center;">S'identifier</font></a></li>
+                    <li><a href="<?php echo $base_url; ?>register/"><i style="margin:5px;color:#fff;" class="fa fa-user-plus" aria-hidden="true"></i><font style="color:#fff;font-size:14px;font-family:arial;text-align: center;">S'inscrire</font></a></li>
                     <li><a href="<?php echo $base_url; ?>index.php?page=add"><i style="margin:5px;color:#fff;" class="fa fa-plus-square" aria-hidden="true"></i><font style="color:#fff;font-size:14px;font-family:arial;text-align: center;">Ücretsiz İlan Ver</font></a></li>
                 </div>
 
@@ -312,7 +312,7 @@ define('access', true);
 
 
                     <br>
-                    <li><i class="fa fa-bell-o"  aria-hidden="true"></i> <a href="<?php echo $base_url; ?>acil-ilanlar.html?sayfa=1" style="color:#fff;font-size:14px;font-family:arial;text-align: center;" class="cat_text">Acil İlanlar</a></li>
+                    <li><i class="fa fa-bell-o"  aria-hidden="true"></i> <a href="<?php echo $base_url; ?>acil-ilanlar.html?sayfa=1" style="color:#fff;font-size:14px;font-family:arial;text-align: center;" class="cat_text">Acil İlanları</a></li>
                     <li><i class="fa fa-thumbs-down"  aria-hidden="true"></i> <a href="<?php echo $base_url; ?>fiyati-dusenler.html" style="color:#fff;font-size:14px;font-family:arial;text-align: center;" class="cat_text">Fiyatı Düşenler</a></li>
                     <li><i class="fa fa-shopping-cart" aria-hidden="true"></i> <a href="<?php echo $base_url; ?>get-ilanlar.html" style="color:#fff;font-size:14px;font-family:arial;text-align: center;" class="cat_text">GET İlanlar</a></li>
                     <li><i class="fa fa-building" aria-hidden="true"></i> <a href="<?php echo $base_url; ?>rehber.html?sayfa=1" style="color:#fff;font-size:14px;font-family:arial;text-align: center;" class="cat_text">Firma Rehberi</a></li>
@@ -414,7 +414,7 @@ define('access', true);
                     }
                     ?>
                     <br>
-                    <li><i class="fa fa-bell-o"  aria-hidden="true"></i> <a href="<?php echo $base_url; ?>acil-ilanlar.html?sayfa=1" style="color:#fff;font-size:14px;font-family:arial;text-align: center;" class="cat_text">Acil İlanlar</a></li>
+                    <li><i class="fa fa-bell-o"  aria-hidden="true"></i> <a href="<?php echo $base_url; ?>acil-ilanlar.html?sayfa=1" style="color:#fff;font-size:14px;font-family:arial;text-align: center;" class="cat_text">Acil İlanları</a></li>
                     <li><i class="fa fa-thumbs-down"  aria-hidden="true"></i> <a href="<?php echo $base_url; ?>fiyati-dusenler.html" style="color:#fff;font-size:14px;font-family:arial;text-align: center;" class="cat_text">Fiyatı Düşenler</a></li>
                     <li><i class="fa fa-shopping-cart" aria-hidden="true"></i> <a href="<?php echo $base_url; ?>get-ilanlar.html" style="color:#fff;font-size:14px;font-family:arial;text-align: center;" class="cat_text">GET İlanlar</a></li>
                     <li><i class="fa fa-building" aria-hidden="true"></i> <a href="<?php echo $base_url; ?>rehber.html?sayfa=1" style="color:#fff;font-size:14px;font-family:arial;text-align: center;" class="cat_text">Firma Rehberi</a></li>
