@@ -41,7 +41,7 @@ $sayfa = $_GET["sayfa"];
                 <div class="panel-heading">Kategoriler</div>
                 <div class="panel-body">
                     <div style="max-height:400px; overflow-y:auto; ">
-                        <ul class="notranslate">
+                        <ul class="notranslate category">
                             <?
                             function sayac($id)
                             {

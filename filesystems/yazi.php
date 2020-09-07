@@ -16,7 +16,7 @@ $az = $sql->fetch(PDO::FETCH_ASSOC);
             <div class="panel panel-default">
                 <div class="panel-heading">Kategoriler</div>
                 <div class="panel-body">
-                    <ul class="notranslate">
+                    <ul class="notranslate category">
                             <?
 							$sql = $db->query("SELECT * FROM bkategoriler ORDER BY kategoriadi ASC");
 							while ($a = $sql->fetch(PDO::FETCH_ASSOC)) {

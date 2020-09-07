@@ -134,7 +134,7 @@ $sayfa = $_GET["sayfa"];
                     }
 
                     if ($id == "") {
-                        echo '<ul class="category">';
+                        echo '<ul class="notranslate category">';
                         $sql = $db->query("SELECT * FROM category WHERE ustkategoriId = '0'");
                         while ($a = $sql->fetch(PDO::FETCH_OBJ)) {
                             if (sayac($a->Id) > 0) {
@@ -152,7 +152,7 @@ $sayfa = $_GET["sayfa"];
                         echo '</ul>';
                     } else {
                         echo '<div style="max-height:400px; overflow-y:auto; ">
-                    <ul class="category">';
+                    <ul class="notranslate category">';
                         echo '<li class="sub1"><a href="index.php">»  Toutes catégories</span></a></li>';
                         if ($_GET['daralt'] != "") {
                             $urlek = preg_replace("/\/c-(.*?)-(.*?).html/", "", $_SERVER['REQUEST_URI']);

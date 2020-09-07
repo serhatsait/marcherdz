@@ -69,7 +69,7 @@ $row = $sql->fetch(PDO::FETCH_ASSOC);
 	<i class="fa fa-briefcase" style="color: #20568a;" aria-hidden="true"></i> <a href="<?php echo $base_url; ?>magazalar.html" style="color:#545454" class="cat_text">Mağazalar</a><div style="clear:both"></div></div></b>
 
 				<br>
-                    <ul class="category">
+                    <ul class="notranslate category">
                         <?
 
                         $sql = $db->query("SELECT * FROM category WHERE ustkategoriId = '0' and tip = '0' ORDER BY sira ASC");

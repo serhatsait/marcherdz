@@ -118,7 +118,7 @@ TeknodizaynSayac();
                     </b>
 
                     <br>
-                    <ul class="category">
+                    <ul class="notranslate category">
                         <?
 
                         $sql = $db->query("SELECT * FROM category WHERE ustkategoriId = '0' and tip = '0' ORDER BY sira ASC");
