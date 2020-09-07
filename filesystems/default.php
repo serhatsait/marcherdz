@@ -365,8 +365,7 @@ TeknodizaynSayac();
             <div style="margin-top:10px; margin-bottom:10px"><? echo banner(3); ?></div>
 
             <div class="panel panel-default">
-                <div class="panel-heading"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Son Eklenen
-                    Mağazalar<span class="pull-right"><a href="magazalar.html"
+                <div class="panel-heading"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Magasins récemment ajoutés<span class="pull-right"><a href="magazalar.html"
                                                          class="hidden-xs">Voir tout</a></span></div>
                 <div class="panel-body">
                     <div class="row no-gutter">
