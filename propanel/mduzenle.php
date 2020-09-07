@@ -94,7 +94,7 @@ function kontrol() {
         <label for="exampleInputEmail1">Url</label>
         <div class="input-group">
           <input type="text" class="form-control" id="a2" name="a2" placeholder="" value="<? echo $n["adres"]; ?>" onkeypress="return restrictCharacters(this, event, alphaOnly);" onpaste="return false;" autocomplete="off" onChange="kontrol()" required>
-          <span class="input-group-addon"><? echo $base; ?></span> </div>
+          <span class="input-group-addon"><? echo 'marcherdz.com'; ?></span> </div>
         <div class="form-group">
           <label for="exampleInputEmail1">Açıklama</label>
           <textarea class="form-control" id="a3" name="a3" required><? echo $n["aciklama"]; ?></textarea>

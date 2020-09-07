@@ -384,7 +384,8 @@ TeknodizaynSayac();
                             echo '
                         <div class="col-xs-6 col-sm-3 col-md-2">
                         <div class="adv2">
-                        <div class="image1"><a href="http://' . $a["adres"] . '.' . $murl . '" alt="' . $a["magazaadi"] . '" title="' . $a["magazaadi"] . '"><img src="' . $src . '" alt="' . $a["magazaadi"] . '" width="93" height="75"/></a></div>
+                        <!--todo: dynamic host name marcherdz.com-->
+                        <div class="image1"><a href="https://' . $a["adres"] . '.' . 'marcherdz.com' . '" alt="' . $a["magazaadi"] . '" title="' . $a["magazaadi"] . '"><img src="' . $src . '" alt="' . $a["magazaadi"] . '" width="93" height="75"/></a></div>
 						<div class="box_type" style="min-width:60px;text-align: center;bottom: 0;padding: 1px 13px;z-index: 2;color: #000;font-size:12px;">' . tr_ucwords(mb_substr($a["magazaadi"], 0, 9)) . '..</div>
                         </div></div>';
                         }
