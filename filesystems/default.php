@@ -104,7 +104,7 @@ TeknodizaynSayac();
                         <div class="subcat_special">
                             <i class="fa fa-clock-o" style="color: #20568a;" aria-hidden="true"></i> <a
                                     href="<?php echo $base_url; ?>son-48-saat.html" style="color:#545454"
-                                    class="cat_text">Son 48 Saat</a> / <a href="/son-1-hafta.html" style="color:#545454"
+                                    class="cat_text">Dernières 48 heures</a> / <a href="/son-1-hafta.html" style="color:#545454"
                                                                           class="cat_text">1 Hafta</a> / <a
                                     href="/son-1-ay.html" style="color:#545454" class="cat_text">1 Ay</a>
                             <div style="clear:both"></div>
