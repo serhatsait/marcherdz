@@ -291,7 +291,7 @@ $sayfa = $_GET["sayfa"];
 <!--                            </select>-->
 <!--                        </div>-->
                         <div class="select">
-                            <label class="qlabel">Fiyat</label>
+                            <label class="qlabel">Prix</label>
                             <div class="row no-gutter">
                                 <div class="col-xs-6">
                                     <div class="form-group">
