@@ -814,7 +814,7 @@ define('access', true);
                     <div class="col-xs-12 col-sm-3 hidden-xs">
                         <div class="footer-single useful-links">
                             <div class="footer-title">
-                                <h2>Gizlilik & Kullanım</h2>
+                                <h2>Confidentialité et utilisation</h2>
                             </div>
                             <ul class="list-unstyled">
                                 <?

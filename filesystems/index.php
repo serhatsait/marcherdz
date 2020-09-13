@@ -449,7 +449,7 @@ $description = $a["description"];
 <div class="col-xs-3">
 <div class="footer-single useful-links">
 <div class="footer-title">
-  <h2>Gizlilik & Kullanım</h2>
+  <h2>Confidentialité et utilisation</h2>
 </div>
 <ul class="list-unstyled">
 <li><a href="yardim.html">Yardım <i class="fa fa-angle-right pull-right"></i></a></li>

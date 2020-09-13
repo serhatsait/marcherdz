@@ -35,7 +35,7 @@ echo '<script> window.location.href = "index.php?page=sayfalar"; </script>';
 		  <option value="0">Sabit Link</option>
 		  <option value="1">Footer Kurumsal Bilgiler</option>
 		  <option value="2">Nos services</option>
-		  <option value="3">Gizlilik & Kullanım</option>
+		  <option value="3">Confidentialité et utilisation</option>
 		  </select>
         </div>
       </div>
