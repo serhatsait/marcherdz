@@ -123,7 +123,7 @@ return $sql->rowCount();
 	  </div>
 	  <div class="col-xs-6" style="width: 50%;">
 	 <div class="form-group">
-                            <label>İl :</label>
+                            <label>Wilaya :</label>
                             <select name="il" id="il" class="form-control il" onchange="districts()" data-role="none" >
                                 <option value="">Tümü</option>
                                 <?php

@@ -327,7 +327,7 @@ function ackapat()
 
                     ?>
                     <div class="form-group">
-                        <label>İl :</label>
+                        <label>Wilaya :</label>
                         <select name="il" id="il" class="form-control il" onchange="districts()" >
                             <option value="">Tümü</option>
                             <?php
@@ -697,7 +697,7 @@ display:block;
 	  </div>
 	  <div class="col-xs-6">
 	 <div class="form-group">
-                            <label>İl :</label>
+                            <label>Wilaya :</label>
                             <select name="il" id="il" class="form-control il" onchange="districts2()" >
                                 <option value="">Tümü</option>
                                 <?php

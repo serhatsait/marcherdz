@@ -104,7 +104,7 @@ $err = '<div class="alert alert-success"><strong>Uyarı!</strong> Üyelik bilgil
           <div class="row no-gutter">
             <div class="col-xs-12 col-sm-6">
               <div class="form-group">
-                <label>İl :</label>
+                <label>Wilaya :</label>
                 <select name="data7" id="data7" class="form-control il" onchange="districts()">
                   <option value="">Seçiniz</option>
                   <?php

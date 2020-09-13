@@ -227,7 +227,7 @@ $sayfa = $_GET["sayfa"];
                     ?>
                     <form action="rehber-<? echo $id; ?>-<? echo slugify($z->kategori_adi); ?>.html" method="get">
                         <div class="form-group">
-                            <label>İl :</label>
+                            <label>Wilaya :</label>
                             <select name="il" id="il" class="form-control il" onchange="districts2()" >
                                 <option value="">Tümü</option>
                                 <?php

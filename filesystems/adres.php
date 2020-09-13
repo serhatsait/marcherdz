@@ -34,7 +34,7 @@
                     </div>
                     <div class="col-xs-6" style="width: 100%;">
                         <div class="form-group">
-                            <label>İl :</label>
+                            <label>Wilaya :</label>
                             <select name="a7" id="a7" class="form-control il" onchange="districts()" required>
                                 <option value="">Seçiniz</option>
                                 <?php

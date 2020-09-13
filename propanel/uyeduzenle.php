@@ -101,7 +101,7 @@ $row = $sql->fetch(PDO::FETCH_OBJ);
     <div class="row no-gutter">
       <div class="col-xs-6">
         <div class="form-group">
-          <label>İl :</label>
+          <label>Wilaya :</label>
           <select name="data7" id="data7" class="form-control il" onchange="districts()" required>
             <option value="">Seçiniz</option>
             <?php

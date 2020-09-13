@@ -389,7 +389,7 @@ if ($_GET["ilanId"] != "") {
         <div class="row">
           <div class="col-xs-3">
             <div class="form-group">
-              <label>İl :</label>
+              <label>Wilaya :</label>
               <select name="data8" id="data8" class="form-control il" onchange="districts()" required>
                 <option value="">Seçiniz</option>
                 <?php
