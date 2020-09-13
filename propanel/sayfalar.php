@@ -34,7 +34,7 @@
 				} elseif ($a["yer"] == 1){
 					$yer = "Footer Kurumsal Bilgiler";
 				} elseif ($a["yer"] == 2){
-					$yer = "Footer Hizmetlerimiz";
+					$yer = "Footer Nos services";
 				} elseif ($a["yer"] == 3){
 					$yer = "Footer Gizlilik & Kullanım";	
 				}

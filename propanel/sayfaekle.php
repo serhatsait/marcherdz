@@ -34,7 +34,7 @@ echo '<script> window.location.href = "index.php?page=sayfalar"; </script>';
           <select name="a2" id="a2" class="form-control">
 		  <option value="0">Sabit Link</option>
 		  <option value="1">Footer Kurumsal Bilgiler</option>
-		  <option value="2">Hizmetlerimiz</option>
+		  <option value="2">Nos services</option>
 		  <option value="3">Gizlilik & Kullanım</option>
 		  </select>
         </div>

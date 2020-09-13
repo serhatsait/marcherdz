@@ -702,7 +702,7 @@ $description = $si["aciklama"];
                     <div class="col-xs-12 col-sm-3 hidden-xs">
                         <div class="footer-single useful-links hidden-xs">
                             <div class="footer-title hidden-xs">
-                                <h2>Hizmetlerimiz</h2>
+                                <h2>Nos services</h2>
                             </div>
                             <ul class="list-unstyled">
                                 <li><a href="<? echo $base_url; ?>doping.html">Doping <i

@@ -690,7 +690,7 @@ define('access', true);
                     <div class="col-xs-12 col-sm-3 hidden-xs">
                         <div class="footer-single useful-links">
                             <div class="footer-title">
-                                <h2>Hizmetlerimiz</h2>
+                                <h2>Nos services</h2>
                             </div>
                             <ul class="list-unstyled">
                                 <?
