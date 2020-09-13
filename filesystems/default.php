@@ -98,7 +98,7 @@ TeknodizaynSayac();
                         <div class="subcat_special">
                             <i class="fa fa-building" style="color: #20568a;" aria-hidden="true"></i> <a
                                     href="<?php echo $base_url; ?>rehber.html?sayfa=1" style="color:#545454"
-                                    class="cat_text">Firma Rehberi</a>
+                                    class="cat_text">Annuaire de l'entreprise</a>
                             <div style="clear:both"></div>
                         </div>
                         <div class="subcat_special">

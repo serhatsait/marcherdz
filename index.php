@@ -393,7 +393,7 @@ define('access', true);
                     <li><i class="fa fa-building" aria-hidden="true"></i> <a
                                 href="<?php echo $base_url; ?>rehber.html?sayfa=1"
                                 style="color:#fff;font-size:14px;font-family:arial;text-align: center;"
-                                class="cat_text">Firma Rehberi</a></li>
+                                class="cat_text">Annuaire de l'entreprise</a></li>
                     <li><i class="fa fa-briefcase" aria-hidden="true"></i> <a
                                 href="<?php echo $base_url; ?>magazalar.html"
                                 style="color:#fff;font-size:14px;font-family:arial;text-align: center;"
@@ -519,7 +519,7 @@ define('access', true);
                     <li><i class="fa fa-building" aria-hidden="true"></i> <a
                                 href="<?php echo $base_url; ?>rehber.html?sayfa=1"
                                 style="color:#fff;font-size:14px;font-family:arial;text-align: center;"
-                                class="cat_text">Firma Rehberi</a></li>
+                                class="cat_text">Annuaire de l'entreprise</a></li>
                     <li><i class="fa fa-briefcase" aria-hidden="true"></i> <a
                                 href="<?php echo $base_url; ?>magazalar.html"
                                 style="color:#fff;font-size:14px;font-family:arial;text-align: center;"

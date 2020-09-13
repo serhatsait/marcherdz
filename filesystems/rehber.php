@@ -600,7 +600,7 @@ margin-left:50px;
 }
 </style>
     <div class="panel panel-default">
-        <div class="panel-heading">Firma Rehberi / <? echo $z->kategori_adi; ?></div>
+        <div class="panel-heading">Annuaire de l'entreprise / <? echo $z->kategori_adi; ?></div>
         <div class="panel-body">
            
             <?
