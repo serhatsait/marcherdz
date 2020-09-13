@@ -263,7 +263,7 @@ header("location:".$redirect);
           <ul class="treeview-menu">
             <li><a href="index.php?page=kategoriekle"><i class="fa fa-circle-o"></i> Anakategori Ekle</a></li>
             <li><a href="index.php?page=kategoriekle2"><i class="fa fa-circle-o"></i> Altkategori Ekle</a></li>
-            <li><a href="index.php?page=kategoriler"><i class="fa fa-circle-o"></i> Kategoriler</a></li>
+            <li><a href="index.php?page=kategoriler"><i class="fa fa-circle-o"></i>Catégories</a></li>
           </ul>
         </li>
 		<? } ?>

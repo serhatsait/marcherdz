@@ -68,7 +68,7 @@ TeknodizaynSayac();
     <div class="row">
         <div class="col-sm-3 hidden-xs">
             <div class="panel panel-default">
-                <div class="panel-heading"><i class="fa fa-list" aria-hidden="true"></i> Kategoriler</div>
+                <div class="panel-heading"><i class="fa fa-list" aria-hidden="true"></i>Catégories</div>
                 <div class="panel-body">
                     <b>
                         <div class="subcat_special">

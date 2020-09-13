@@ -95,7 +95,7 @@ $description = $si["aciklama"];
                     </li>
                     <li class="dropdown visible-xs"><a href="#" class="dropdown-toggle res1" data-toggle="dropdown"
                                                        role="button" aria-haspopup="true" aria-expanded="false"><i
-                                    class="glyphicon glyphicon-th-list"></i> Kategoriler <span class="caret"></span></a>
+                                    class="glyphicon glyphicon-th-list"></i>Catégories <span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <?
                             $sql = $db->query("SELECT * FROM category WHERE ustkategoriId = '0' and tip = '0' ORDER BY sira ASC");
@@ -385,7 +385,7 @@ $description = $si["aciklama"];
                             </div>
                         </div>
                     </div>
-                    <div class="panel-heading hidden-xs"><i class="fa fa-list" aria-hidden="true"></i> Kategoriler</div>
+                    <div class="panel-heading hidden-xs"><i class="fa fa-list" aria-hidden="true"></i>Catégories</div>
                     <div class="panel-body hidden-xs">
                         <ul class="category hidden-xs">
                             <?

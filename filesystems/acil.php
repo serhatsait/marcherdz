@@ -37,7 +37,7 @@ $sayfa = $_GET["sayfa"];
     <div class="row no-gutter">
         <div class="hidden-xs col-sm-3">
             <div class="panel panel-default">
-                <div class="panel-heading"><i class="fa fa-list" aria-hidden="true"></i> Kategoriler</div>
+                <div class="panel-heading"><i class="fa fa-list" aria-hidden="true"></i>Catégories</div>
                 <div class="panel-body">
 
                     <?
