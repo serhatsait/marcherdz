@@ -74,7 +74,7 @@ TeknodizaynSayac();
                         <div class="subcat_special">
                             <i class="fa fa-bell-o" style="color: #20568a;" aria-hidden="true"></i> <a
                                     href="<?php echo $base_url; ?>acil-ilanlar.html?sayfa=1" style="color:#545454"
-                                    class="cat_text">Acil İlanları</a>
+                                    class="cat_text">Dernières publications</a>
                             <div style="clear:both"></div>
                         </div>
                         <div class="subcat_special">
