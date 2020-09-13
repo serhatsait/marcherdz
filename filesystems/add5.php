@@ -142,7 +142,7 @@ if ($_GET["ilanId"] != "") {
         </div>
 
   <div class="panel panel-default">
-            <div class="panel-heading">Informations d'entreprise</div>
+            <div class="panel-heading">Information d'entreprise</div>
             <div class="panel-body">
 
                 <div class="row no-gutter">

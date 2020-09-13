@@ -427,7 +427,7 @@ $description = $a["description"];
 <div class="col-xs-3">
 <div class="footer-single useful-links">
 <div class="footer-title">
-  <h2>Informations d'entreprise</h2>
+  <h2>Information d'entreprise</h2>
 </div>
 <ul class="list-unstyled">
 <li><a href="index.php">Anasayfa <i class="fa fa-angle-right pull-right"></i></a></li>
