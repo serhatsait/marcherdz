@@ -783,7 +783,7 @@ define('access', true);
                     <div class="col-xs-12 col-sm-3 hidden-xs">
                         <div class="footer-single useful-links">
                             <div class="footer-title">
-                                <h2>Kurumsal Bilgiler</h2>
+                                <h2>Informations d'entreprise</h2>
                             </div>
                             <ul class="list-unstyled">
                                 <li><a href="index.php">Anasayfa <i class="fa fa-angle-right pull-right"></i></a></li>
