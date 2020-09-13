@@ -16,7 +16,7 @@ $a = $sql->fetch(PDO::FETCH_ASSOC);
 <section class="content-header">
   <h1> Blog Yönetimi<small>Kategoriler</small> </h1>
   <ol class="breadcrumb">
-    <li><a href="index.php"><i class="fa fa-dashboard"></i> Anasayfa</a></li>
+    <li><a href="index.php"><i class="fa fa-dashboard"></i> Page d'accueil</a></li>
     <li><a href="index.php?page=bkategoriler"><i class="fa fa-dashboard"></i> Blog Kategoriler</a></li>
     <li class="active">Düzenle</li>
   </ol>

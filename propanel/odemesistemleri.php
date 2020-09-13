@@ -20,7 +20,7 @@ $n =  $sql->fetch(PDO::FETCH_ASSOC);
 <section class="content-header">
   <h1> Site Ayarları<small>Ödeme Sistemleri</small> </h1>
   <ol class="breadcrumb">
-    <li><a href="index.php"><i class="fa fa-dashboard"></i> Anasayfa</a></li>
+    <li><a href="index.php"><i class="fa fa-dashboard"></i> Page d'accueil</a></li>
     <li><i class="active"></i> Ödeme Sistemleri</li>
   </ol>
 </section>

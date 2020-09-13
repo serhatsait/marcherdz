@@ -69,7 +69,7 @@ if ($_GET['id'] != ""){
 <section class="content-header">
 <h1> Ödeme İşlemleri<small>Ödeme Bildirimleri</small> </h1>
 <ol class="breadcrumb">
-  <li><a href="index.php"><i class="fa fa-dashboard"></i> Anasayfa</a></li>
+  <li><a href="index.php"><i class="fa fa-dashboard"></i> Page d'accueil</a></li>
   <li class="">Ödeme İşlemleri</li>
   <li class="active">Ödeme Bildirimleri</li>
 </ol>

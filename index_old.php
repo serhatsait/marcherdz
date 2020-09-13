@@ -677,7 +677,7 @@ define('access', true);
                                 <h2>Information d'entreprise</h2>
                             </div>
                             <ul class="list-unstyled">
-                                <li><a href="index.php">Anasayfa <i class="fa fa-angle-right pull-right"></i></a></li>
+                                <li><a href="index.php">Page d'accueil<i class="fa fa-angle-right pull-right"></i></a></li>
                                 <?
                                 $sql = $db->query("SELECT * FROM sayfalar WHERE yer = '1' order by Id ASC");
                                 while ($a = $sql->fetch(PDO::FETCH_ASSOC)){

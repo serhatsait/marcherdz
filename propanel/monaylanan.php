@@ -15,7 +15,7 @@ if ($_GET['id'] != ""){
 <section class="content-header">
 <h1> Mağaza Yönetimi<small>Onaylanan</small> </h1>
 <ol class="breadcrumb">
-  <li><a href="index.php"><i class="fa fa-dashboard"></i> Anasayfa</a></li>
+  <li><a href="index.php"><i class="fa fa-dashboard"></i> Page d'accueil</a></li>
   <li class="active">Mağaza Yönetimi</li>
     <li>Onaylanan</li>
 

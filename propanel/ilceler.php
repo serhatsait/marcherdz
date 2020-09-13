@@ -8,7 +8,7 @@ $id = $_GET["id"];
 <section class="content-header">
 <h1> Bölge Yönetimi<small>Bölge Yönetimi</small> </h1>
 <ol class="breadcrumb">
-  <li><a href="index.php"><i class="fa fa-dashboard"></i> Anasayfa</a></li>
+  <li><a href="index.php"><i class="fa fa-dashboard"></i> Page d'accueil</a></li>
   <li class="active">Bölge Yönetimi</li>
 </ol>
 </section>

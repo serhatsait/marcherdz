@@ -121,7 +121,7 @@ $description = $a["description"];
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-        <li><a href="<?php echo $base_url; ?>">Anasayfa</a></li>
+        <li><a href="<?php echo $base_url; ?>">Page d'accueil</a></li>
         <li><a href="<?php echo $base_url; ?>acil-ilanlar.html?sayfa=1">Acil İlanlar</a></li>
         <li><a href="<?php echo $base_url; ?>magazalar.html">Magasins</a></li>
       </ul>
@@ -430,7 +430,7 @@ $description = $a["description"];
   <h2>Information d'entreprise</h2>
 </div>
 <ul class="list-unstyled">
-<li><a href="index.php">Anasayfa <i class="fa fa-angle-right pull-right"></i></a></li>
+<li><a href="index.php">Page d'accueil<i class="fa fa-angle-right pull-right"></i></a></li>
 <li><a href="hakkimizda.html">Hakkımızda <i class="fa fa-angle-right pull-right"></i></a></li>
 <li><a href="iletisim.html">İletişim <i class="fa fa-angle-right pull-right"></i></a></li>
 </div>

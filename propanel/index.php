@@ -96,7 +96,7 @@ header("location:".$redirect);
         </div>
       </div>
         <li class="header">İşlem Menüsü</li>
-        <li> <a href="index.php" > <i class="fa fa-home"></i> <span>Anasayfa</span> <span class="pull-right-container"> <i class="fa fa-angle-left pull-right"></i> </span> </a></li>
+        <li> <a href="index.php" > <i class="fa fa-home"></i> <span>Page d'accueil</span> <span class="pull-right-container"> <i class="fa fa-angle-left pull-right"></i> </span> </a></li>
         <? if ($_SESSION["siteayarlari"] == 1){ ?>
 		<li class="treeview
 		<?

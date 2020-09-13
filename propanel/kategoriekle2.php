@@ -2,7 +2,7 @@
 <section class="content-header">
   <h1> Kategori Yönetimi<small>Kategori Ekle</small> </h1>
   <ol class="breadcrumb">
-    <li><a href="index.php"><i class="fa fa-dashboard"></i> Anasayfa</a></li>
+    <li><a href="index.php"><i class="fa fa-dashboard"></i> Page d'accueil</a></li>
     <li><i class="fa fa-dashboard"></i> Kategori Yönetimi</li>
     <li class="active">Kategori Ekle</li>
   </ol>

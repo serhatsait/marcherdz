@@ -66,7 +66,7 @@ function kontrol() {
 <section class="content-header">
   <h1> Mağaza Yönetimi<small>Mağaza Düzenle</small> </h1>
   <ol class="breadcrumb">
-    <li><a href="index.php"><i class="fa fa-dashboard"></i> Anasayfa</a></li>
+    <li><a href="index.php"><i class="fa fa-dashboard"></i> Page d'accueil</a></li>
     <li><i class="fa fa-dashboard"></i> Mağaza Yönetimi</li>
     <li class="active">Mağaza Düzenle</li>
   </ol>

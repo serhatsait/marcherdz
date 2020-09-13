@@ -2,7 +2,7 @@
 <section class="content-header">
 <h1>Doping Yönetimi<small>Anasayfa Vitrin İlanları</small> </h1>
 <ol class="breadcrumb">
-  <li><a href="index.php"><i class="fa fa-dashboard"></i> Anasayfa</a></li>
+  <li><a href="index.php"><i class="fa fa-dashboard"></i> Page d'accueil</a></li>
   <li class="active">Anasayfa Vitrin İlanları</li>
    <li class="active">Vitrin İlanları</li>
 </ol>

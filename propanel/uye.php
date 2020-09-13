@@ -26,7 +26,7 @@ $c = $sql3->fetch(PDO::FETCH_ASSOC);
 
 <h1> Üye Yönetimi<small>Üye Bilgileri</small> </h1>
 <ol class="breadcrumb">
-  <li><a href="index.php"><i class="fa fa-dashboard"></i> Anasayfa</a></li>
+  <li><a href="index.php"><i class="fa fa-dashboard"></i> Page d'accueil</a></li>
   <li>Üye Yönetimi</li>
   <li class="active">Üye Bilgileri</li>
 </ol>

@@ -25,7 +25,7 @@ $a = $sql->fetch(PDO::FETCH_ASSOC);
 <section class="content-header">
   <h1> Site Ayarları<small>Doping Ücretleri</small> </h1>
   <ol class="breadcrumb">
-    <li><a href="index.php"><i class="fa fa-dashboard"></i> Anasayfa</a></li>
+    <li><a href="index.php"><i class="fa fa-dashboard"></i> Page d'accueil</a></li>
     <li class="active">Doping Ücretleri</li>
   </ol>
 </section>
@@ -40,7 +40,7 @@ $a = $sql->fetch(PDO::FETCH_ASSOC);
           <div class="col-md-6">
             <div class="box box-default">
               <div class="box-header with-border">
-                <h3 class="box-title">Anasayfa</h3>
+                <h3 class="box-title">Page d'accueil</h3>
               </div>
               <div class="box-body">
                 <div class="row">

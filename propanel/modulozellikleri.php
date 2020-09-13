@@ -3,7 +3,7 @@
 <section class="content-header">
 <h1> Site Ayarları<small>Modül Yönetimi</small> </h1>
 <ol class="breadcrumb">
-  <li><a href="index.php"><i class="fa fa-dashboard"></i> Anasayfa</a></li>
+  <li><a href="index.php"><i class="fa fa-dashboard"></i> Page d'accueil</a></li>
   <li><a href="index.php?page=moduller"><i class="fa fa-dashboard"></i> Modül Yönetimi</a></li>
   <li class="active">Gruplar</li>
 </ol>

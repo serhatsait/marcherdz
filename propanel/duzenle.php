@@ -96,7 +96,7 @@ $ozellikler.=  '</div></div></div>';
 <section class="content-header">
   <h1> İlan Yönetimi<small>İlan Düzenle</small> </h1>
   <ol class="breadcrumb">
-    <li><a href="index.php"><i class="fa fa-dashboard"></i> Anasayfa</a></li>
+    <li><a href="index.php"><i class="fa fa-dashboard"></i> Page d'accueil</a></li>
     <li><a href="index.php?page=banka"><i class="fa fa-dashboard"></i> İlan Yönetimi</a></li>
     <li class="active">İlan Düzenle</li>
   </ol>

@@ -16,7 +16,7 @@ $sql->execute();
 <section class="content-header">
 <h1> GET İşlemleri<small>Kargo Bekleyen</small> </h1>
 <ol class="breadcrumb">
-  <li><a href="index.php"><i class="fa fa-dashboard"></i> Anasayfa</a></li>
+  <li><a href="index.php"><i class="fa fa-dashboard"></i> Page d'accueil</a></li>
   <li class="">GET İşlemleri</li>
   <li class="active">Kargo Bekleyen</li>
 </ol>

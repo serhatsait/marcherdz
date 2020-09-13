@@ -11,7 +11,7 @@ $c = $sql3->fetch(PDO::FETCH_ASSOC);
 <section class="content-header">
   <h1> GET İşlemleri<small>Sipariş Bilgileri</small> </h1>
   <ol class="breadcrumb">
-    <li><a href="index.php"><i class="fa fa-dashboard"></i> Anasayfa</a></li>
+    <li><a href="index.php"><i class="fa fa-dashboard"></i> Page d'accueil</a></li>
     <li>GET İşlemleri</li>
     <li class="active">Sipariş Bilgileri</li>
   </ol>

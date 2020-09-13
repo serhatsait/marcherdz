@@ -91,7 +91,7 @@ $description = $si["aciklama"];
             <div id="navbar" class="navbar-collapse collapse">
 
                 <ul class="nav navbar-nav">
-                    <li><a href="<?php echo $base_url; ?>"><i class="fa fa-home" aria-hidden="true"></i> Anasayfa</a>
+                    <li><a href="<?php echo $base_url; ?>"><i class="fa fa-home" aria-hidden="true"></i> Page d'accueil</a>
                     </li>
                     <li class="dropdown visible-xs"><a href="#" class="dropdown-toggle res1" data-toggle="dropdown"
                                                        role="button" aria-haspopup="true" aria-expanded="false"><i
@@ -691,7 +691,7 @@ $description = $si["aciklama"];
                                 <h2>Information d'entreprise</h2>
                             </div>
                             <ul class="list-unstyled">
-                                <li><a href="<? echo $base_url; ?>index.php">Anasayfa <i
+                                <li><a href="<? echo $base_url; ?>index.php">Page d'accueil<i
                                                 class="fa fa-angle-right pull-right"></i></a></li>
                                 <li><a href="<? echo $base_url; ?>hakkimizda.html">Hakkımızda <i
                                                 class="fa fa-angle-right pull-right"></i></a></li>

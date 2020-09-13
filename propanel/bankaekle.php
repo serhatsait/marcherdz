@@ -13,7 +13,7 @@ echo '<script> window.location.href = "index.php?page=banka"; </script>';
 <section class="content-header">
   <h1> Site Ayarları<small>Banka Bilgileri</small> </h1>
   <ol class="breadcrumb">
-    <li><a href="index.php"><i class="fa fa-dashboard"></i> Anasayfa</a></li>
+    <li><a href="index.php"><i class="fa fa-dashboard"></i> Page d'accueil</a></li>
     <li><a href="index.php?page=banka"><i class="fa fa-dashboard"></i> Banka Bilgileri</a></li>
     <li class="active">Yeni Kayıt Ekle</li>
   </ol>

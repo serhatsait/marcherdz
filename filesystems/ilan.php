@@ -151,7 +151,7 @@ if ($sql2->rowCount() == 0) {
 
                 <!-- 2. Add images to <div class="fotorama"></div>. -->
 
-                <div class="ilan-kategori-link"><a href="index.php">Anasayfa</a> <? echo $kategoriler; ?> </div>
+                <div class="ilan-kategori-link"><a href="index.php">Page d'accueil</a> <? echo $kategoriler; ?> </div>
                 <div class="row">
                     <div class="col-md-8 col-sm-12 col-xs-12">
                         <div class="row ">

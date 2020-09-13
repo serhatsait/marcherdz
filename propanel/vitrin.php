@@ -58,7 +58,7 @@ echo '<script> window.location.href = "index.php?page='.$return.''; if ($return 
 <section class="content-header">
   <h1> İlan Yönetimi<small>Vitrin</small> </h1>
   <ol class="breadcrumb">
-    <li><a href="index.php"><i class="fa fa-dashboard"></i> Anasayfa</a></li>
+    <li><a href="index.php"><i class="fa fa-dashboard"></i> Page d'accueil</a></li>
     <li><a href="index.php?page=banka"><i class="fa fa-dashboard"></i> İlan Yönetimi</a></li>
     <li class="active">Vitrin</li>
   </ol>

@@ -18,7 +18,7 @@ $a = $sql->fetch(PDO::FETCH_ASSOC);
 <section class="content-header">
   <h1> Sosyal Medya Ayarları</h1>
   <ol class="breadcrumb">
-    <li><a href="index.php"><i class="fa fa-dashboard"></i> Anasayfa</a></li>
+    <li><a href="index.php"><i class="fa fa-dashboard"></i> Page d'accueil</a></li>
     <li class="active">Sosyal Medya Ayarları</li>
   </ol>
 </section>

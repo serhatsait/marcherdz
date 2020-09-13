@@ -6,7 +6,7 @@ if ($_SESSION["siteayarlari"] == 1){?>
 <section class="content-header">
 <h1> Üyelere Toplu Mail Gönder </h1>
 <ol class="breadcrumb">
-  <li><a href="index.php"><i class="fa fa-dashboard"></i> Anasayfa</a></li>
+  <li><a href="index.php"><i class="fa fa-dashboard"></i> Page d'accueil</a></li>
   <li class="active">Toplu Mail</li>
 </ol>
 </section>
