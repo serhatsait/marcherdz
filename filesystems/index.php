@@ -123,7 +123,7 @@ $description = $a["description"];
       <ul class="nav navbar-nav">
         <li><a href="<?php echo $base_url; ?>">Anasayfa</a></li>
         <li><a href="<?php echo $base_url; ?>acil-ilanlar.html?sayfa=1">Acil İlanlar</a></li>
-        <li><a href="<?php echo $base_url; ?>magazalar.html">Mağazalar</a></li>
+        <li><a href="<?php echo $base_url; ?>magazalar.html">Magasins</a></li>
       </ul>
       <ul class="nav navbar-nav pull-right">
         <? if ($_SESSION['uye'] == "") { ?>

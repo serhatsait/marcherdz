@@ -111,7 +111,7 @@ $description = $si["aciklama"];
                                     class="fa fa-bell-o" aria-hidden="true"></i> Acil İlanlar</a></li>
                     <li class="hidden-xs"><a href="<?php echo $base_url; ?>magazalar.html"><i class="fa fa-shopping-bag"
                                                                                               aria-hidden="true"></i>
-                            Mağazalar</a></li>
+                            Magasins</a></li>
                     <li class="hidden-xs"><a href="<?php echo $base_url; ?>rehber.html?sayfa=1"><i
                                     class="fa fa-building" aria-hidden="true"></i>Annuaire de l'entreprise</a></li>
                     <? if ($_SESSION['uye'] == "") { ?>

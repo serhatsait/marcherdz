@@ -112,7 +112,7 @@ TeknodizaynSayac();
                         <div class="subcat_special">
                             <i class="fa fa-briefcase" style="color: #20568a;" aria-hidden="true"></i> <a
                                     href="<?php echo $base_url; ?>magazalar.html" style="color:#545454"
-                                    class="cat_text">Mağazalar</a>
+                                    class="cat_text">Magasins</a>
                             <div style="clear:both"></div>
                         </div>
                     </b>

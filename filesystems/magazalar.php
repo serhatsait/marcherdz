@@ -27,7 +27,7 @@ return $sql->rowCount();
 	<div class="subcat_special">
 	<i class="fa fa-clock-o" style="color: #20568a;" aria-hidden="true"></i> <a href="<?php echo $base_url; ?>son-48-saat.html" style="color:#545454" class="cat_text">Dernières 48 heures</a> / <a href="/son-1-hafta.html"  style="color:#545454" class="cat_text">1 semaine</a> / <a href="/son-1-ay.html" style="color:#545454" class="cat_text">1 mois</a><div style="clear:both"></div></div>
 <div class="subcat_special">
-	<i class="fa fa-briefcase" style="color: #20568a;" aria-hidden="true"></i> <a href="<?php echo $base_url; ?>magazalar.html" style="color:#545454" class="cat_text">Mağazalar</a><div style="clear:both"></div></div></b>
+	<i class="fa fa-briefcase" style="color: #20568a;" aria-hidden="true"></i> <a href="<?php echo $base_url; ?>magazalar.html" style="color:#545454" class="cat_text">Magasins</a><div style="clear:both"></div></div></b>
 
 				<br>
                     <ul class="notranslate category">
@@ -51,7 +51,7 @@ return $sql->rowCount();
             </div></div>
         <div class="col-xs-12 col-sm-9" style="padding-left:5px;">
             <div class="panel panel-default">
-                <div class="panel-heading"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Mağazalar</div>
+                <div class="panel-heading"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Magasins</div>
                 <div class="panel-body">
                     <div class="row no-gutter">
                         <?

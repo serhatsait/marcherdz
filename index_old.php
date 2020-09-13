@@ -316,7 +316,7 @@ define('access', true);
                     <li><i class="fa fa-thumbs-down"  aria-hidden="true"></i> <a href="<?php echo $base_url; ?>fiyati-dusenler.html" style="color:#fff;font-size:14px;font-family:arial;text-align: center;" class="cat_text">Prix ​​réduit</a></li>
                     <li><i class="fa fa-shopping-cart" aria-hidden="true"></i> <a href="<?php echo $base_url; ?>get-ilanlar.html" style="color:#fff;font-size:14px;font-family:arial;text-align: center;" class="cat_text">GET İlanlar</a></li>
                     <li><i class="fa fa-building" aria-hidden="true"></i> <a href="<?php echo $base_url; ?>rehber.html?sayfa=1" style="color:#fff;font-size:14px;font-family:arial;text-align: center;" class="cat_text">Annuaire de l'entreprise</a></li>
-                    <li><i class="fa fa-briefcase" aria-hidden="true"></i> <a href="<?php echo $base_url; ?>magazalar.html" style="color:#fff;font-size:14px;font-family:arial;text-align: center;" class="cat_text">Mağazalar</a></li>
+                    <li><i class="fa fa-briefcase" aria-hidden="true"></i> <a href="<?php echo $base_url; ?>magazalar.html" style="color:#fff;font-size:14px;font-family:arial;text-align: center;" class="cat_text">Magasins</a></li>
                 </div>
             <? } else { ?>
                 <i class="ac-kapasag fa fa-user fa-2x"><font style="font-size:18px;font-family:arial;text-align: center;font-weight:600;"></font></i>
@@ -418,7 +418,7 @@ define('access', true);
                     <li><i class="fa fa-thumbs-down"  aria-hidden="true"></i> <a href="<?php echo $base_url; ?>fiyati-dusenler.html" style="color:#fff;font-size:14px;font-family:arial;text-align: center;" class="cat_text">Prix ​​réduit</a></li>
                     <li><i class="fa fa-shopping-cart" aria-hidden="true"></i> <a href="<?php echo $base_url; ?>get-ilanlar.html" style="color:#fff;font-size:14px;font-family:arial;text-align: center;" class="cat_text">GET İlanlar</a></li>
                     <li><i class="fa fa-building" aria-hidden="true"></i> <a href="<?php echo $base_url; ?>rehber.html?sayfa=1" style="color:#fff;font-size:14px;font-family:arial;text-align: center;" class="cat_text">Annuaire de l'entreprise</a></li>
-                    <li><i class="fa fa-briefcase" aria-hidden="true"></i> <a href="<?php echo $base_url; ?>magazalar.html" style="color:#fff;font-size:14px;font-family:arial;text-align: center;" class="cat_text">Mağazalar</a></li>
+                    <li><i class="fa fa-briefcase" aria-hidden="true"></i> <a href="<?php echo $base_url; ?>magazalar.html" style="color:#fff;font-size:14px;font-family:arial;text-align: center;" class="cat_text">Magasins</a></li>
                 </div>
 
             <? }?>
