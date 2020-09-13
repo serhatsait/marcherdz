@@ -24,7 +24,7 @@ return $sql->rowCount();
 	<div class="subcat_special">
 	<i class="fa fa-building" style="color: #20568a;" aria-hidden="true"></i> <a href="<?php echo $base_url; ?>rehber.html?sayfa=1" style="color:#545454" class="cat_text">Annuaire de l'entreprise</a><div style="clear:both"></div></div>
 	<div class="subcat_special">
-	<i class="fa fa-clock-o" style="color: #20568a;" aria-hidden="true"></i> <a href="<?php echo $base_url; ?>son-48-saat.html" style="color:#545454" class="cat_text">Dernières 48 heures</a> / <a href="/son-1-hafta.html"  style="color:#545454" class="cat_text">1 Hafta</a> / <a href="/son-1-ay.html" style="color:#545454" class="cat_text">1 Ay</a><div style="clear:both"></div></div>
+	<i class="fa fa-clock-o" style="color: #20568a;" aria-hidden="true"></i> <a href="<?php echo $base_url; ?>son-48-saat.html" style="color:#545454" class="cat_text">Dernières 48 heures</a> / <a href="/son-1-hafta.html"  style="color:#545454" class="cat_text">1 semaine</a> / <a href="/son-1-ay.html" style="color:#545454" class="cat_text">1 Ay</a><div style="clear:both"></div></div>
 <div class="subcat_special">
 	<i class="fa fa-briefcase" style="color: #20568a;" aria-hidden="true"></i> <a href="<?php echo $base_url; ?>magazalar.html" style="color:#545454" class="cat_text">Mağazalar</a><div style="clear:both"></div></div></b>
 

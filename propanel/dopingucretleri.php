@@ -45,7 +45,7 @@ $a = $sql->fetch(PDO::FETCH_ASSOC);
               <div class="box-body">
                 <div class="row">
                   <div class="col-md-4">
-                    <label for="exampleInputEmail1">1 Hafta</label>
+                    <label for="exampleInputEmail1">1 semaine</label>
                     <div class="input-group">
                       <input type="number" class="form-control" id="a1" name="a1" placeholder="0" value="<? echo $a["a1"]; ?>" required>
                       <span class="input-group-addon">.00</span> </div>
@@ -74,7 +74,7 @@ $a = $sql->fetch(PDO::FETCH_ASSOC);
               <div class="box-body">
                 <div class="row">
                   <div class="col-md-4">
-                    <label for="exampleInputEmail1">1 Hafta</label>
+                    <label for="exampleInputEmail1">1 semaine</label>
                     <div class="input-group">
                       <input type="number" class="form-control" id="a4" name="a4" placeholder="0" value="<? echo $a["a4"]; ?>" required>
                       <span class="input-group-addon">.00</span> </div>
@@ -103,7 +103,7 @@ $a = $sql->fetch(PDO::FETCH_ASSOC);
               <div class="box-body">
                 <div class="row">
                   <div class="col-md-4">
-                    <label for="exampleInputEmail1">1 Hafta</label>
+                    <label for="exampleInputEmail1">1 semaine</label>
                     <div class="input-group">
                       <input type="number" class="form-control" id="a7" name="a7" placeholder="0" value="<? echo $a["a7"]; ?>" required>
                       <span class="input-group-addon">.00</span> </div>
@@ -132,7 +132,7 @@ $a = $sql->fetch(PDO::FETCH_ASSOC);
               <div class="box-body">
                 <div class="row">
                   <div class="col-md-4">
-                    <label for="exampleInputEmail1">1 Hafta</label>
+                    <label for="exampleInputEmail1">1 semaine</label>
                     <div class="input-group">
                       <input type="number" class="form-control" id="a10" name="a10" placeholder="0" value="<? echo $a["a10"]; ?>" required>
                       <span class="input-group-addon">.00</span> </div>

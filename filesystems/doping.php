@@ -44,7 +44,7 @@ $id = $_GET['id'];
                             İlanınız her gün “milyonlarca kişinin ziyaret ettiği” sitemizin ana sayfasında yer alsın.
                             <select class="form-control" name="dp1">
                                 <option value="0">İstemiyorum</option>
-                                <option value="1">1 Hafta - <? echo $doping_anasayfa_1; ?> TL</option>
+                                <option value="1">1 semaine - <? echo $doping_anasayfa_1; ?> TL</option>
                                 <option value="2">2 Hafta - <? echo $doping_anasayfa_2; ?> TL</option>
                                 <option value="4">4 Hafta - <? echo $doping_anasayfa_4; ?> TL</option>
                             </select>
@@ -56,7 +56,7 @@ $id = $_GET['id'];
                             İlanınız her gün ait olduğu kategori ve alt kategori sayfalarında görüntülensin istiyorsanız hemen alın!
                             <select class="form-control" name="dp2">
                                 <option value="0">İstemiyorum</option>
-                                <option value="1">1 Hafta - <? echo $doping_kategori_1; ?> TL</option>
+                                <option value="1">1 semaine - <? echo $doping_kategori_1; ?> TL</option>
                                 <option value="2">2 Hafta - <? echo $doping_kategori_2; ?> TL</option>
                                 <option value="4">4 Hafta - <? echo $doping_kategori_4; ?> TL</option>
                             </select>
@@ -71,7 +71,7 @@ $id = $_GET['id'];
                             "Hemen satmam lazım" diyorsanız Acil ilanlar dopingini alın, ilanınız ana sayfa sol menüde yer alan Acil ilanlar kategorisinde yer alsın.
                             <select class="form-control" name="dp3">
                                 <option value="0">İstemiyorum</option>
-                                <option value="1">1 Hafta - <? echo $doping_acil_1; ?> TL</option>
+                                <option value="1">1 semaine - <? echo $doping_acil_1; ?> TL</option>
                                 <option value="2">2 Hafta - <? echo $doping_acil_2; ?> TL</option>
                                 <option value="4">4 Hafta - <? echo $doping_acil_4; ?> TL</option>
                             </select>
@@ -83,7 +83,7 @@ $id = $_GET['id'];
                             İlanınız arama sonuç listelerinde kalın yazı ve renkli çerçevesiyle görüntülensin, benzerlerinden ayırt edilsin istiyorsanız hemen alın!
                             <select class="form-control" name="dp4">
                                 <option value="0">İstemiyorum</option>
-                                <option value="1">1 Hafta - <? echo $doping_kalin_1; ?> TL</option>
+                                <option value="1">1 semaine - <? echo $doping_kalin_1; ?> TL</option>
                                 <option value="2">2 Hafta - <? echo $doping_kalin_2; ?> TL</option>
                                 <option value="4">4 Hafta - <? echo $doping_kalin_4; ?> TL</option>
                             </select>
