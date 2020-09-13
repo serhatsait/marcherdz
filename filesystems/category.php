@@ -213,7 +213,7 @@ $sayfa = $_GET["sayfa"];
                 </div>
             </div>
             <div class="hidden-xs panel panel-default" id="lef">
-                <div class="panel-heading"><i class="fa fa-filter" aria-hidden="true"></i> Arama Daraltma</div>
+                <div class="panel-heading"><i class="fa fa-filter" aria-hidden="true"></i>Recherche restreinte</div>
                 <div class="panel-body">
                     <?
                     $sql = $db->query("SELECT * FROM category WHERE Id = '$id'");
