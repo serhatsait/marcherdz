@@ -452,7 +452,7 @@ $description = $a["description"];
   <h2>Confidentialité et utilisation</h2>
 </div>
 <ul class="list-unstyled">
-<li><a href="yardim.html">Yardım <i class="fa fa-angle-right pull-right"></i></a></li>
+<li><a href="yardim.html">Aide <i class="fa fa-angle-right pull-right"></i></a></li>
 <li><a href="kullanim-sartlari.html">Kullanım Şartları <i class="fa fa-angle-right pull-right"></i></a></li>
 <li><a href="gizlilik-politikasi.html">Gizlilik Politikası <i class="fa fa-angle-right pull-right"></i></a></li>
 </div>

@@ -73,7 +73,7 @@
         ordered: 'Numaralı liste'
       },
       options: {
-        help: 'Yardım',
+        help: 'Aide',
         fullscreen: 'Tam ekran',
         codeview: 'HTML Kodu'
       },

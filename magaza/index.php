@@ -719,7 +719,7 @@ $description = $si["aciklama"];
                                 <h2>Confidentialité et utilisation</h2>
                             </div>
                             <ul class="list-unstyled">
-                                <li><a href="<? echo $base_url; ?>yardim.html">Yardım <i
+                                <li><a href="<? echo $base_url; ?>yardim.html">Aide <i
                                                 class="fa fa-angle-right pull-right"></i></a></li>
                                 <li><a href="<? echo $base_url; ?>kullanim-sartlari.html">Kullanım Şartları <i
                                                 class="fa fa-angle-right pull-right"></i></a></li>
