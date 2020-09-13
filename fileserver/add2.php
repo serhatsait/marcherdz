@@ -220,7 +220,7 @@ if ($_GET["ilanId"] != "") {
                         <div class="row no-gutter">
                             <div class="col-xs-8 col-sm-7">
                                 <div class="form-group">
-                                    <label>Fiyat</label>
+                                    <label>Prix</label>
                                     <input type="text" name="data4" id="data4" placeholder="0" class="form-control money"  required="required" value="<?php echo $v->price; ?>" onKeyUp="hesapla()" autocomplete="off">
                                 </div>
                             </div>
@@ -253,7 +253,7 @@ if ($_GET["ilanId"] != "") {
                         <div class="row no-gutter">
                             <div class="col-xs-12 col-sm-4">
                                 <div class="form-group">
-                                    <label>Fiyat</label>
+                                    <label>Prix</label>
                                     <input type="text" disabled name="xx1" id="xx1" placeholder="0 TL" class="form-control money" value=""  autocomplete="off">
                                 </div>
                             </div>

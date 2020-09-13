@@ -165,7 +165,7 @@ return $sql->rowCount();
 	  </div>
 
 	  <div class="col-xs-6" style="width: 50%;">
-	  <label class="">Fiyat</label>
+	  <label class="">Prix</label>
 	   <div class="row no-gutter">
                                 <div class="col-xs-6" style="width: 50%;">
                                     <div class="form-group">

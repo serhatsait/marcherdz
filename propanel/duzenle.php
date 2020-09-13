@@ -190,7 +190,7 @@ if ($_GET["ilanId"] != "") {
             <div class="row no-gutter">
               <div class="col-xs-7">
                 <div class="form-group">
-                  <label>Fiyat</label>
+                  <label>Prix</label>
                   <input type="text" name="data4" id="data4" placeholder="0" class="form-control money" value="<?php echo $v->price; ?>" onKeyUp="hesapla()" autocomplete="off">
                 </div>
               </div>
