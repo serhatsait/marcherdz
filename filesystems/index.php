@@ -443,7 +443,7 @@ $description = $a["description"];
 <ul class="list-unstyled">
 <li><a href="doping.html">Doping <i class="fa fa-angle-right pull-right"></i></a></li>
 <li><a href="reklam.html">Publicité <i class="fa fa-angle-right pull-right"></i></a></li>
-<li><a href="guvenli-alisveris.html">Güvenli Alışveriş Sistemi <i class="fa fa-angle-right pull-right"></i></a></li>
+<li><a href="guvenli-alisveris.html">Système d'achat sécurisé <i class="fa fa-angle-right pull-right"></i></a></li>
 </div>
 </div>
 <div class="col-xs-3">

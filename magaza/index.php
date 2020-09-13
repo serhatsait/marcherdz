@@ -709,7 +709,7 @@ $description = $si["aciklama"];
                                                 class="fa fa-angle-right pull-right"></i></a></li>
                                 <li><a href="<? echo $base_url; ?>reklam.html">Publicité <i
                                                 class="fa fa-angle-right pull-right"></i></a></li>
-                                <li><a href="<? echo $base_url; ?>guvenli-alisveris.html">Güvenli Alışveriş Sistemi <i
+                                <li><a href="<? echo $base_url; ?>guvenli-alisveris.html">Système d'achat sécurisé <i
                                                 class="fa fa-angle-right pull-right"></i></a></li>
                         </div>
                     </div>
