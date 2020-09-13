@@ -80,7 +80,7 @@ TeknodizaynSayac();
                         <div class="subcat_special">
                             <i class="fa fa-thumbs-down" style="color: #20568a;" aria-hidden="true"></i> <a
                                     href="<?php echo $base_url; ?>fiyati-dusenler.html" style="color:#545454"
-                                    class="cat_text">Fiyatı Düşenler</a>
+                                    class="cat_text">Prix ​​réduit</a>
                             <div style="clear:both"></div>
                         </div>
                         <div class="subcat_special">

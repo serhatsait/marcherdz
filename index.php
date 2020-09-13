@@ -385,7 +385,7 @@ define('access', true);
                     <li><i class="fa fa-thumbs-down" aria-hidden="true"></i> <a
                                 href="<?php echo $base_url; ?>fiyati-dusenler.html"
                                 style="color:#fff;font-size:14px;font-family:arial;text-align: center;"
-                                class="cat_text">Fiyatı Düşenler</a></li>
+                                class="cat_text">Prix ​​réduit</a></li>
                     <li><i class="fa fa-shopping-cart" aria-hidden="true"></i> <a
                                 href="<?php echo $base_url; ?>get-ilanlar.html"
                                 style="color:#fff;font-size:14px;font-family:arial;text-align: center;"
@@ -511,7 +511,7 @@ define('access', true);
                     <li><i class="fa fa-thumbs-down" aria-hidden="true"></i> <a
                                 href="<?php echo $base_url; ?>fiyati-dusenler.html"
                                 style="color:#fff;font-size:14px;font-family:arial;text-align: center;"
-                                class="cat_text">Fiyatı Düşenler</a></li>
+                                class="cat_text">Prix ​​réduit</a></li>
                     <li><i class="fa fa-shopping-cart" aria-hidden="true"></i> <a
                                 href="<?php echo $base_url; ?>get-ilanlar.html"
                                 style="color:#fff;font-size:14px;font-family:arial;text-align: center;"

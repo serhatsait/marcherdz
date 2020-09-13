@@ -17,7 +17,7 @@ return $sql->rowCount();
 				<b><div class="subcat_special">
 	<i class="fa fa-bell-o" style="color: #20568a;" aria-hidden="true"></i> <a href="<?php echo $base_url; ?>acil-ilanlar.html?sayfa=1" style="color:#545454" class="cat_text">Dernières publications</a><div style="clear:both"></div></div>
 	<div class="subcat_special">
-	<i class="fa fa-thumbs-down" style="color: #20568a;" aria-hidden="true"></i> <a href="<?php echo $base_url; ?>fiyati-dusenler.html" style="color:#545454" class="cat_text">Fiyatı Düşenler</a><div style="clear:both"></div></div>
+	<i class="fa fa-thumbs-down" style="color: #20568a;" aria-hidden="true"></i> <a href="<?php echo $base_url; ?>fiyati-dusenler.html" style="color:#545454" class="cat_text">Prix ​​réduit</a><div style="clear:both"></div></div>
 <div class="subcat_special">
 	<i class="fa fa-shopping-cart" style="color: #20568a;" aria-hidden="true"></i> <a href="<?php echo $base_url; ?>get-ilanlar.html"  style="color:#545454" class="cat_text">Güvenli e-Ticaret İlanları</a><div style="clear:both"></div></div>
 	<div class="subcat_special">
