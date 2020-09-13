@@ -92,7 +92,7 @@ TeknodizaynSayac();
                         <div class="subcat_special">
                             <i class="fa fa-globe" style="color: #20568a;" aria-hidden="true"></i> <a
                                     href="<?php echo $base_url; ?>haritali-ilanlar.html" style="color:#545454"
-                                    class="cat_text">Haritali İlanlar</a>
+                                    class="cat_text">Annonces avec carte</a>
                             <div style="clear:both"></div>
                         </div>
                         <div class="subcat_special">
