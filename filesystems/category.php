@@ -237,7 +237,7 @@ $sayfa = $_GET["sayfa"];
                             </select>
                         </div>
                         <div class="form-group">
-                            <label>İlçe :</label>
+                            <label>Municipalité :</label>
                             <select name="ilce" id="ilce" class="form-control ilce" onchange="localitys()" data-role="none">
                                 <option value="">Tümü</option>
                                 <?php

@@ -438,7 +438,7 @@ if ($_GET["ilanId"] != "") {
                         </div>
                         <input type="hidden" name="ilanId" id="ilanId" value="<? echo $v->locality; ?>">
                             <div class="form-group">
-                                <label>İlçe :</label>
+                                <label>Municipalité :</label>
                                 <select name="data9" id="data9" class="form-control ilce"  onchange="localitys()" required>
                                     <?php
                                     $il = $v->city;

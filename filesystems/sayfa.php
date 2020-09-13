@@ -74,7 +74,7 @@ $az = $sql->fetch(PDO::FETCH_ASSOC);
 	  </div>
 	  <div class="col-xs-6" style="width: 50%;">
 	  <div class="form-group">
-                            <label>İlçe :</label>
+                            <label>Municipalité :</label>
                            <select name="ilce" id="ilce" class="form-control ilce" onchange="localitys()" data-role="none">
                                 <option value="">Tümü</option>
                                 <?php

@@ -445,7 +445,7 @@ $sayfa = $_GET["sayfa"];
                         </select>
                     </div>
                     <div class="form-group">
-                        <label>İlçe :</label>
+                        <label>Municipalité :</label>
                         <select name="ilce" id="ilce" class="form-control ilce" onchange="localitys()">
                             <option value="">Tümü</option>
                             <?php
@@ -821,7 +821,7 @@ $sayfa = $_GET["sayfa"];
                         </div>
                         <div class="col-xs-6">
                             <div class="form-group">
-                                <label>İlçe :</label>
+                                <label>Municipalité :</label>
                                 <select name="ilce[]" id="ilce" class="form-control ilce se" data-show-subtext="true"
                                         data-live-search="true" multiple>
                                     <option value="">Tümü</option>

@@ -119,7 +119,7 @@ $row = $sql->fetch(PDO::FETCH_OBJ);
       </div>
       <div class="col-xs-6">
         <div class="form-group">
-          <label>İlçe :</label>
+          <label>Municipalité :</label>
           <select name="data8" id="data8" class="form-control ilce" required>
             <?php
                                         $il = $row->il;

@@ -50,7 +50,7 @@
                             </select>
                         </div>
                         <div class="form-group">
-                            <label>İlçe :</label>
+                            <label>Municipalité :</label>
                             <select name="a8" id="a8" class="form-control ilce"  onchange="localitys()" required>
                                 <?php
                                 $il = $v->city;
