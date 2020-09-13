@@ -58,7 +58,7 @@ $row = $sql->fetch(PDO::FETCH_ASSOC);
 	<div class="subcat_special">
 	<i class="fa fa-thumbs-down" style="color: #20568a;" aria-hidden="true"></i> <a href="<?php echo $base_url; ?>fiyati-dusenler.html" style="color:#545454" class="cat_text">Prix ​​réduit</a><div style="clear:both"></div></div>
 <div class="subcat_special">
-	<i class="fa fa-shopping-cart" style="color: #20568a;" aria-hidden="true"></i> <a href="<?php echo $base_url; ?>get-ilanlar.html"  style="color:#545454" class="cat_text">Güvenli e-Ticaret İlanları</a><div style="clear:both"></div></div>
+	<i class="fa fa-shopping-cart" style="color: #20568a;" aria-hidden="true"></i> <a href="<?php echo $base_url; ?>get-ilanlar.html"  style="color:#545454" class="cat_text">Annonces e-commerce sécurisées</a><div style="clear:both"></div></div>
 	<div class="subcat_special">
 	<i class="fa fa-globe"  style="color: #20568a;" aria-hidden="true"></i> <a href="<?php echo $base_url; ?>haritali-ilanlar.html" style="color:#545454" class="cat_text">Haritali İlanlar</a><div style="clear:both"></div></div>
 	<div class="subcat_special">
