@@ -359,23 +359,23 @@ function ackapat()
                             ?>
                         </select>
                     </div>
-                    <div class="form-group">
-                        <label>Mahalle :</label>
-                        <select name="mahalle" id="locality" class="form-control mahalle"  >
-                            <option value="">Tümü</option>
-                            <?php
-                            $ilce = $_GET['ilce'];
-                            $sql2 = $db->query("SELECT * FROM locality WHERE countyId = '$ilce' ORDER BY districtname ASC");
-                            while ($ix = $sql2->fetch(PDO::FETCH_OBJ)) {
-                                echo '<option value="' . $ix->id . '"';
-                                if ($_GET['mahalle'] == $ix->id) {
-                                    echo ' selected="select"';
-                                }
-                                echo '>' . $ix->districtname . '</option>';
-                            }
-                            ?>
-                        </select>
-                    </div>
+<!--                    <div class="form-group">-->
+<!--                        <label>Mahalle :</label>-->
+<!--                        <select name="mahalle" id="locality" class="form-control mahalle"  >-->
+<!--                            <option value="">Tümü</option>-->
+<!--                            --><?php
+//                            $ilce = $_GET['ilce'];
+//                            $sql2 = $db->query("SELECT * FROM locality WHERE countyId = '$ilce' ORDER BY districtname ASC");
+//                            while ($ix = $sql2->fetch(PDO::FETCH_OBJ)) {
+//                                echo '<option value="' . $ix->id . '"';
+//                                if ($_GET['mahalle'] == $ix->id) {
+//                                    echo ' selected="select"';
+//                                }
+//                                echo '>' . $ix->districtname . '</option>';
+//                            }
+//                            ?>
+<!--                        </select>-->
+<!--                    </div>-->
                     <div class="select">
                         <label class="qlabel">Fiyat</label>
                         <div class="row no-gutter">

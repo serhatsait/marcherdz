@@ -491,11 +491,11 @@ if ($_GET["ilanId"] != "") {
                                 </select>
                             </div>
                             <script> localitys();</script>
-                            <div class="form-group">
-                                <label>Mahalle :</label>
-                                <select name="data10" id="locality" class="form-control mahalle" onchange="maps()" required>
-                                </select>
-                            </div>
+<!--                            <div class="form-group">-->
+<!--                                <label>Mahalle :</label>-->
+<!--                                <select name="data10" id="locality" class="form-control mahalle" onchange="maps()" required>-->
+<!--                                </select>-->
+<!--                            </div>-->
                     </div>
                     <div class="col-xs-12">
 					<center><font size="4">Bölge Seçimini Tamamladıktan Sonra Lütfen Haritadan Konumunuza İşaret Koymayı Unutmayın.!</font></center>

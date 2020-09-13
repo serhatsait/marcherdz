@@ -485,11 +485,11 @@ if ($_GET["ilanId"] != "") {
                                 </select>
                             </div>
                             <script> localitys();</script>
-                            <div class="form-group">
-                                <label>Mahalle :</label>
-                                <select name="data10" id="locality" class="form-control mahalle" onchange="maps()" required>
-                                </select>
-                            </div>
+<!--                            <div class="form-group">-->
+<!--                                <label>Mahalle :</label>-->
+<!--                                <select name="data10" id="locality" class="form-control mahalle" onchange="maps()" required>-->
+<!--                                </select>-->
+<!--                            </div>-->
                     </div>
                    
                 </div>

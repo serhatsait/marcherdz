@@ -262,40 +262,40 @@ $sayfa = $_GET["sayfa"];
                                 ?>
                             </select>
                         </div>
-                        <div class="form-group ">
-                            <label>Mahalle :</label>
-                            <select name="mahalle[]" id="locality" class="form-control mahalle se" data-show-subtext="true" data-live-search="true" multiple >
-                                <option value="">Tümü</option>
-                                <?php
-                                $ilce = $_GET['ilce'];
-								if (count($_GET["ilce"]) > 0){
-								if (count($_GET["ilce"]) == 1){
-								$v = $_GET["ilce"];	
-								$ek .= " countyId = '$v[0]'";
-								} else {
-								$vv = "";
-								foreach ($_GET["ilce"] as $ils){
-								$vv .= " or countyId = '$ils'";	
-								}
-								$vv = substr($vv, 4,100);
-								$ek .= " $vv ";	
-								}
-								}
-								
-								if ($ek != ""){
-                                $sql2 = $db->query("SELECT * FROM locality WHERE $ek ORDER BY countyId ASC");
-                                while ($ix = $sql2->fetch(PDO::FETCH_OBJ)) {
-                                    echo '<option value="' . $ix->id . '"';
-                                    if ($_GET['mahalle'] == $ix->id) {
-                                        echo ' selected="select"';
-                                    }
-                                    echo '>' . $ix->districtname . '</option>';
-                                }
-								}
-								$ek = "";
-                                ?>
-                            </select>
-                        </div>
+<!--                        <div class="form-group ">-->
+<!--                            <label>Mahalle :</label>-->
+<!--                            <select name="mahalle[]" id="locality" class="form-control mahalle se" data-show-subtext="true" data-live-search="true" multiple >-->
+<!--                                <option value="">Tümü</option>-->
+<!--                                --><?php
+//                                $ilce = $_GET['ilce'];
+//								if (count($_GET["ilce"]) > 0){
+//								if (count($_GET["ilce"]) == 1){
+//								$v = $_GET["ilce"];
+//								$ek .= " countyId = '$v[0]'";
+//								} else {
+//								$vv = "";
+//								foreach ($_GET["ilce"] as $ils){
+//								$vv .= " or countyId = '$ils'";
+//								}
+//								$vv = substr($vv, 4,100);
+//								$ek .= " $vv ";
+//								}
+//								}
+//
+//								if ($ek != ""){
+//                                $sql2 = $db->query("SELECT * FROM locality WHERE $ek ORDER BY countyId ASC");
+//                                while ($ix = $sql2->fetch(PDO::FETCH_OBJ)) {
+//                                    echo '<option value="' . $ix->id . '"';
+//                                    if ($_GET['mahalle'] == $ix->id) {
+//                                        echo ' selected="select"';
+//                                    }
+//                                    echo '>' . $ix->districtname . '</option>';
+//                                }
+//								}
+//								$ek = "";
+//                                ?>
+<!--                            </select>-->
+<!--                        </div>-->
                        
                 <?
                 $sqlm     = $db->query("SELECT * FROM category WHERE Id = '$id' and tip = '1'");

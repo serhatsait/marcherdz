@@ -105,11 +105,11 @@ header("location: index.php?page=ozet");
                             </select>
                         </div>
                         <script> localitys();</script>
-                        <div class="form-group">
-                            <label>Mahalle :</label>
-                            <select name="a9" id="locality" class="form-control mahalle" >
-                            </select>
-                        </div>
+<!--                        <div class="form-group">-->
+<!--                            <label>Mahalle :</label>-->
+<!--                            <select name="a9" id="locality" class="form-control mahalle" >-->
+<!--                            </select>-->
+<!--                        </div>-->
                         <div class="form-group">
                             <label>Adres</label>
                             <input type="text" name="a10" id="a10" class="form-control" placeholder="Açık Adresiniz" required>

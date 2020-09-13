@@ -454,11 +454,11 @@ if ($_GET["ilanId"] != "") {
                                 </select>
                             </div>
                             <script> localitys();</script>
-                            <div class="form-group">
-                                <label>Mahalle :</label>
-                                <select name="data10" id="locality" class="form-control mahalle" onchange="maps()" >
-                                </select>
-                            </div>
+<!--                            <div class="form-group">-->
+<!--                                <label>Mahalle :</label>-->
+<!--                                <select name="data10" id="locality" class="form-control mahalle" onchange="maps()" >-->
+<!--                                </select>-->
+<!--                            </div>-->
                     </div>
                     <div class="hidden-xs col-sm-9">
                         <div id="map_canvas" style="width:100%; height:200px; padding:5px; border:solid 1px #ddd"></div>
