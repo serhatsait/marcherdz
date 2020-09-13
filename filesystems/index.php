@@ -432,7 +432,7 @@ $description = $a["description"];
 <ul class="list-unstyled">
 <li><a href="index.php">Page d'accueil<i class="fa fa-angle-right pull-right"></i></a></li>
 <li><a href="hakkimizda.html">à propos de nous <i class="fa fa-angle-right pull-right"></i></a></li>
-<li><a href="iletisim.html">İletişim <i class="fa fa-angle-right pull-right"></i></a></li>
+<li><a href="iletisim.html">à propos de nous <i class="fa fa-angle-right pull-right"></i></a></li>
 </div>
 </div>
 <div class="col-xs-3">

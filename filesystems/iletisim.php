@@ -45,7 +45,7 @@ $mail->send();
     
     
       <div class="panel panel-default">
-        <div class="panel-heading">İletişim</div>
+        <div class="panel-heading">à propos de nous</div>
         <div class="panel-body">
         <div class="alert alert-warning">İstek, öneri ve şikayetleriniz aşağıdaki iletişim formu aracılığı ile bize bildirebilirsiniz.</div>
           <form name="form1" id="form1" action="" method="post">

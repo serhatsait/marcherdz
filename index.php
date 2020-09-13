@@ -793,7 +793,7 @@ define('access', true);
                                     echo '<li><a href="' . $base_url . '' . $a["slug"] . '.html">' . $a["sayfaadi"] . ' <i class="fa fa-angle-right pull-right"></i></a></li>';
                                 }
                                 ?>
-                                <li><a href="iletisim.html">İletişim <i class="fa fa-angle-right pull-right"></i></a>
+                                <li><a href="iletisim.html">à propos de nous <i class="fa fa-angle-right pull-right"></i></a>
                                 </li>
                         </div>
                     </div>

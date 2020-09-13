@@ -695,7 +695,7 @@ $description = $si["aciklama"];
                                                 class="fa fa-angle-right pull-right"></i></a></li>
                                 <li><a href="<? echo $base_url; ?>hakkimizda.html">à propos de nous <i
                                                 class="fa fa-angle-right pull-right"></i></a></li>
-                                <li><a href="<? echo $base_url; ?>iletisim.html">İletişim <i
+                                <li><a href="<? echo $base_url; ?>iletisim.html">à propos de nous <i
                                                 class="fa fa-angle-right pull-right"></i></a></li>
                         </div>
                     </div>
