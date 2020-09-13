@@ -106,7 +106,7 @@ TeknodizaynSayac();
                                     href="<?php echo $base_url; ?>son-48-saat.html" style="color:#545454"
                                     class="cat_text">Dernières 48 heures</a> / <a href="/son-1-hafta.html" style="color:#545454"
                                                                           class="cat_text">1 semaine</a> / <a
-                                    href="/son-1-ay.html" style="color:#545454" class="cat_text">1 Ay</a>
+                                    href="/son-1-ay.html" style="color:#545454" class="cat_text">1 mois</a>
                             <div style="clear:both"></div>
                         </div>
                         <div class="subcat_special">
