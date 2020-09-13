@@ -113,7 +113,7 @@ $description = $si["aciklama"];
                                                                                               aria-hidden="true"></i>
                             Mağazalar</a></li>
                     <li class="hidden-xs"><a href="<?php echo $base_url; ?>rehber.html?sayfa=1"><i
-                                    class="fa fa-building" aria-hidden="true"></i> Firma Rehberi</a></li>
+                                    class="fa fa-building" aria-hidden="true"></i>Annuaire de l'entreprise</a></li>
                     <? if ($_SESSION['uye'] == "") { ?>
                         <li class="visible-xs"><a href="<? echo $base_url; ?>login/"><i class="fa fa-user"
                                                                                         aria-hidden="true"></i> <?php echo $lg[2]; ?>
