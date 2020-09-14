@@ -761,7 +761,7 @@ define('access', true);
                     <a href="<? echo $a12["google"];?>" target="blank"><i class="fa fa-google-plus-square fa-2x" style="color:#000"></i></a>
                     <a href="<? echo $a12["youtube"];?>" target="blank"><i class="fa fa-youtube-square fa-2x" style="color:#000"></i></a>
                     <a href="<? echo $a12["instagram"];?>" target="blank"><i class="fa fa-instagram fa-2x" style="color:#000"></i></a></center>
-                <div class="footercop"> <? echo $SiteName; ?> Yer Alan Kullanıcıların Oluşturduğu Tüm İçerik, Görüş Ve Bilgilerin Doğruluğu, Eksiksiz Ve Değişmez Olduğu, Yayınlanması İle İlgili Yasal Yükümlülükler İçeriği Oluşturan Kullanıcıya Aittir.Bu İçeriğin, Görüş Ve Bilgilerin Yanlışlık, Eksiklik Veya Yasalarla Düzenlenmiş Kurallara Aykırılığından Hiçbir Şekilde Sitemiz Sorumlu Değildir.<br>
+                <div class="footercop"> <? echo $SiteName; ?> exactitude de tous les contenus, vues et informations créés par les utilisateurs, Il est complet et inchangeable, Les obligations légales concernant la publication appartiennent à l'utilisateur qui a créé le contenu.Inexactitude de ce contenu, opinion et information, Notre site n'est en aucun cas responsable de la carence ou de la violation des règles réglementées par la loi.<br>
                     Sorularınız İçin İlan Sahibi İle İrtibata Geçebilirsiniz. </div>
 
             </div>
