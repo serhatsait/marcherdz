@@ -943,11 +943,11 @@ define('access', true);
                                                                             style="color:#000"></i></a>
                     <a href="<? echo $a12["instagram"]; ?>" target="blank"><i class="fa fa-instagram fa-2x"
                                                                               style="color:#000"></i></a></center>
-                <div class="footercop"> <? echo $SiteName; ?> Yer Alan Kullanıcıların Oluşturduğu Tüm İçerik, Görüş Ve
-                    Bilgilerin Doğruluğu, Eksiksiz Ve Değişmez Olduğu, Yayınlanması İle İlgili Yasal Yükümlülükler
-                    İçeriği Oluşturan Kullanıcıya Aittir.Bu İçeriğin, Görüş Ve Bilgilerin Yanlışlık, Eksiklik Veya
-                    Yasalarla Düzenlenmiş Kurallara Aykırılığından Hiçbir Şekilde Sitemiz Sorumlu Değildir.<br>
-                    Sorularınız İçin İlan Sahibi İle İrtibata Geçebilirsiniz.
+                <div class="footercop"> <? echo $SiteName; ?> Tout le contenu, l'opinion et
+                    Obligations légales concernant l'exactitude, les informations absolues et inchangeables des informations
+                    Le contenu est la propriété de l'utilisateur qui a créé ce contenu, cette opinion et ces informations.
+                    Notre site n'est en aucun cas responsable de la violation des règles réglementées par la loi.<br>
+                    Vous pouvez contacter le propriétaire de l'annonce pour vos questions.
                 </div>
 
             </div>
