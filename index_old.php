@@ -754,7 +754,7 @@ define('access', true);
                         /* ]]> */
                     </script>
                 </center>
-                <center><div style="font-weight:600;padding: 5px;">Bizi Takip Edin ;</div>
+                <center><div style="font-weight:600;padding: 5px;">Suivez nous sur :</div>
 
                     <a href="<? echo $a12["facebook"];?>" target="blank"><i class="fa fa-facebook-square fa-2x" style="color:#000"></i></a>
                     <a href="<? echo $a12["twitter"];?>" target="blank"><i class="fa fa-twitter-square fa-2x" style="color:#000"></i></a>
