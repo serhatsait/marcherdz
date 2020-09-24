@@ -88,7 +88,7 @@ header("location:".$redirect);
       <ul class="sidebar-menu">
 	  <div class="user-panel">
         <div class="pull-left image">
-          <img src="dist/img/user8-128x128.jpg" class="img-circle" alt="User Image">
+          <img src="dist/img/admins.jpg" class="img-circle" alt="User Image">
         </div>
         <div class="pull-left info">
           <p>Administrator</p>
