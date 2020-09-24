@@ -728,7 +728,7 @@ $sayfa = $_GET["sayfa"];
                             echo '
             <div class="col-xs-6 col-sm-3 col-md-2">
             <div class="adv2">
-            <div class="image1"><a href="i-' . $row["Id"] . '-' . slugify($row["title"]) . '.html" alt="' . $row["title"] . '" title="' . $row["title"] . '"> <div class="acil-box"><img src="' . $src . '" width="93" height="75" alt=""/><div class="box_type" style="position: absolute;top: 2px;right:11px;background: rgba(0,0,0,0.5);color: #fff;border-radius: 4px;font-weight:600;font-size: 12px;-webkit-border-bottom-left-radius: 3px;-moz-border-radius-bottomleft: 3px;border-bottom-left-radius: 3px;">'.number_format($row[price]).' '.$row[exchange].'</div></div></a></div>
+            <div class="image1"><a href="i-' . $row["Id"] . '-' . slugify($row["title"]) . '.html" alt="' . $row["title"] . '" title="' . $row["title"] . '"> <div class="acil-box"><img src="' . $src . '" width="93" height="75" alt=""/><div class="box_type" style="margin-top:5px;background: rgba(0,0,0,0.5);color: #fff;border-radius: 4px;font-weight:600;font-size: 12px;-webkit-border-bottom-left-radius: 3px;-moz-border-radius-bottomleft: 3px;border-bottom-left-radius: 3px;">'.number_format($row[price]).' '.$row[exchange].'</div></div></a></div>
             
 			<div class="adv2-title" style="font-size:11px;margin-top:-10px;"><a href="i-' . $row["Id"] . '-' . slugify($row["title"]) . '.html" alt="' . $row["title"] . '" title="' . $row["title"] . '">' . ucfirst(mb_substr($row["title"], 0, 12)) . '..</a></div>
             </div>

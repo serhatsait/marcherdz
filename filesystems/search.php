@@ -90,7 +90,7 @@ return $sql->rowCount();
                         <div class="col-xs-6 col-sm-3 col-md-2">
                         <div class="adv2">
                         <div class="image1"><a href="i-'.$a["Id"].'-'.slugify($a["title"]).'.html" alt="'.$a["title"].'" title="'.$a["title"].'"><img src="' . $src . '" alt="'.$a["title"].'" width="93" height="75"/></a></div>
-						<div class="box_type" style="position: absolute;top: 2px;right:11px;background: rgba(0,0,0,0.5);color: #fff;border-radius: 4px;font-weight:600;font-size: 12px;-webkit-border-bottom-left-radius: 3px;-moz-border-radius-bottomleft: 3px;border-bottom-left-radius: 3px;">'.number_format($a[price]).' '.$a[exchange].'</div>
+						<div class="box_type" style="margin-top:5px;background: rgba(0,0,0,0.5);color: #fff;border-radius: 4px;font-weight:600;font-size: 12px;-webkit-border-bottom-left-radius: 3px;-moz-border-radius-bottomleft: 3px;border-bottom-left-radius: 3px;">'.number_format($a[price]).' '.$a[exchange].'</div>
                         <div class="adv2-title" style="font-size:11px;margin-top:-10px;"><a href="i-'.$a["Id"].'-'.slugify($a["title"]).'.html" alt="'.$a["title"].'" title="'.$a["title"].'">' . ucfirst(mb_substr($a["title"],0,12)) . '..</a></div></div>
                         </div>';
                         }

@@ -29,30 +29,33 @@ $a = $sql->fetch(PDO::FETCH_ASSOC);
       <h3 class="box-title">Sosyal Medya Ayarları ( Footer )</h3>
     </div>
     <form name="form" action="" method="post">
-      <div class="box-body"> 
-       
-		
+      <div class="box-body">
 		
         <div class="form-group">
-          <label for="exampleInputEmail1">Facebook Footer Link :</label>
-          <input type="text" class="form-control"  name="facebook" placeholder="http://" value="<? echo $a["facebook"]; ?>">
+          <label for="exampleInputEmail1">Facebook Footer Link :
+              <input type="text" class="form-control"  name="facebook" placeholder="http://" value="<? echo $a["facebook"]; ?>">
+          </label>
         </div>
        <div class="form-group">
-          <label for="exampleInputEmail1">Twitter Footer Link :</label>
-          <input type="text" class="form-control"  name="twitter" placeholder="http://" value="<? echo $a["twitter"]; ?>">
+          <label for="exampleInputEmail1">Twitter Footer Link :
+              <input type="text" class="form-control"  name="twitter" placeholder="http://" value="<? echo $a["twitter"]; ?>">
+          </label>
         </div>
 		<div class="form-group">
-          <label for="exampleInputEmail1">Google+ Footer Link :</label>
-          <input type="text" class="form-control"  name="google" placeholder="http://" value="<? echo $a["google"]; ?>">
+          <label for="exampleInputEmail1">Google+ Footer Link :
+              <input type="text" class="form-control"  name="google" placeholder="http://" value="<? echo $a["google"]; ?>">
+          </label>
         </div>
 		<div class="form-group">
-          <label for="exampleInputEmail1">Youtube Footer Link :</label>
-          <input type="text" class="form-control" name="youtube" placeholder="http://" value="<? echo $a["youtube"]; ?>">
+          <label for="exampleInputEmail1">Youtube Footer Link :
+              <input type="text" class="form-control" name="youtube" placeholder="http://" value="<? echo $a["youtube"]; ?>">
+          </label>
         </div>
 		
 		<div class="form-group">
-          <label for="exampleInputEmail1">Instagram Footer Link :</label>
-          <input type="text" class="form-control" name="instagram" placeholder="http://" value="<? echo $a["instagram"]; ?>">
+          <label for="exampleInputEmail1">Instagram Footer Link :
+              <input type="text" class="form-control" name="instagram" placeholder="http://" value="<? echo $a["instagram"]; ?>">
+          </label>
         </div>
 		
       </div>
