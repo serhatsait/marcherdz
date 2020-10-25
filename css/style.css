@@ -1082,10 +1082,6 @@ body {
         width: 240px !important;
     }
 
-    #flash_search {
-        display: none;
-    }
-
     .navbar-li-index {
         font-size: 11px !important;
         display: inline-block !important;
@@ -1290,23 +1286,23 @@ body {
     border-top: solid 5px #474747
 }
 
-#custom-search-input {
-    padding: 3px;
-    border-radius: 6px;
-    width: 315px;
-    box-shadow: inset 0px 0px 0px 11px #3f475f;
-}
+/*#custom-search-input {*/
+/*    padding: 3px;*/
+/*    border-radius: 6px;*/
+/*    width: 315px;*/
+/*    box-shadow: inset 0px 0px 0px 11px #3f475f;*/
+/*}*/
 
-#custom-search-input input {
-    border: 0;
-    box-shadow: none;
-    font-size: 11px;
-    background-color: #2f3546;
-    font-weight: 500;
-    color: white;
-    border-radius: 4px;
-    width: 300px;
-}
+/*#custom-search-input input {*/
+/*    border: 0;*/
+/*    box-shadow: none;*/
+/*    font-size: 11px;*/
+/*    background-color: #2f3546;*/
+/*    font-weight: 500;*/
+/*    color: white;*/
+/*    border-radius: 4px;*/
+/*    width: 300px;*/
+/*}*/
 
 #custom-search-input button {
     margin: -1px 0 0 -35px;
@@ -1457,9 +1453,9 @@ body {
     padding-top: 10px
 }
 
-.search-list {
-    padding: 0;
-}
+/*.search-list {*/
+/*    padding: 0;*/
+/*}*/
 
 .search-list li {
     float: left;
@@ -2159,14 +2155,6 @@ body {
     #custom-search-input {
         width: 200px;
     }
-}
-
-.wrapper {
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 100%;
 }
 
 .mobil-logo a img {
