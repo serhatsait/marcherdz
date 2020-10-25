@@ -2101,6 +2101,5 @@ body {
 }
 @keyframes example {
     0%   {right:-250px;}
-    50%  {right:-125px;}
     100% {right:0;}
 }
