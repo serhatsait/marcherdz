@@ -71,7 +71,7 @@ function banner($e)
 	if ($e != 6){
 	$l = '<a href="'.$base_url.'"><img src="'.$base_url.'uploads/'.$a["kod"].'" width="100%" alt=""/></a>';
 	} else {
-	$l = '<a href="'.$a["url"].'"><img src="'.$base_url.'uploads/'.$a["kod"].'" alt=""/></a>';		
+	$l = '<a href="'.$base_url.'"><img src="'.$base_url.'uploads/'.$a["kod"].'" alt=""/></a>';
 	}
 	} else {
 	$l = html_entity_decode($a["kod"]);	
