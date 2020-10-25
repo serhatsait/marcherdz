@@ -2070,7 +2070,7 @@ body {
     }
 }
 
-.mobil-logo a img {
+.mobil-logo a img, .visible-xs a img {
     width: 100%;
     max-width: 160px;
     border-radius: 6px;
