@@ -2097,7 +2097,7 @@ body {
 .active {
     right: 0;
     animation-name: example;
-    animation-duration: 4s;
+    animation-duration: 2s;
 }
 @keyframes example {
     0%   {right:-250px;}
