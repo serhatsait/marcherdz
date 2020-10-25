@@ -2103,3 +2103,6 @@ body {
     0%   {right:-250px;}
     100% {right:0;}
 }
+.carousel-control .icon-prev, .carousel-control .icon-next, .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right{
+    top: 50%!important;
+}
