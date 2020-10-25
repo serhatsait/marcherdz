@@ -45,7 +45,7 @@ body {
     }
 }
 
-@media screen and (max-width: 1040px) and (min-width: 768px){
+@media screen and (max-width: 1092px) and (min-width: 768px){
 
     #flash_search {
         display: none;
