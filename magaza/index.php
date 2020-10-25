@@ -84,9 +84,7 @@ $description = $si["aciklama"];
                             class="icon-bar"></span> <span class="icon-bar"></span></button>
                 <div class="visible-xs"
                      style="color: #fff;font-weight:600;margin-top:9px;text-align:center;margin-left:30px;"><a
-                            href="<?php echo $base_url; ?>"><img border="0"
-                                                                 src="<?php echo banner(6); ?>"
-                                                                 width="160" height="34"></a></div>
+                            href="<?php echo $base_url; ?>"><? echo banner(6); ?></a></div>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
 
