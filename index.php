@@ -769,7 +769,7 @@ define('access', true);
         }
         ?>
     </div>
-    <footer>
+    <footer style="padding: 0 14px;">
         <section class="nb-footer">
             <div class="container">
                 <div class="row">
