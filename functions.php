@@ -75,9 +75,9 @@ function banner($e)
     $a = $sql->fetch(PDO::FETCH_ASSOC);
     if ($a["tip"] == 0) {
         if ($e != 6) {
-            $l = '<a href="/"><img src="' . $base_url . 'uploads/' . $a["kod"] . '" width="100%" alt="Reklam Alanı"/></a>';
+            $l = '<a href="'.$base_url.'"><img src="' . $base_url . 'uploads/' . $a["kod"] . '" width="100%" alt="Reklam Alanı"/></a>';
         } else {
-            $l = '<a href="/"><img src="' . $base_url . 'uploads/' . $a["kod"] . '" alt="Reklam Alanı"/></a>';
+            $l = '<a href="'.$base_url.'"><img src="' . $base_url . 'uploads/' . $a["kod"] . '" alt="Reklam Alanı"/></a>';
         }
     } else {
         $l = html_entity_decode($a["kod"]);
