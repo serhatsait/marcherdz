@@ -956,7 +956,7 @@ define('access', true);
     </footer>
     <script>
         var acikmi4 = 1;
-        $(".ac-kapasag").click(function () {
+        $(".ac-kapa").click(function () {
             if (acikmi4 === 1) {
                 $('.mobil-menuqq').animate({right: '-250px'}, 600);
                 $('body').animate({right: '250px'}, 800);
@@ -970,7 +970,7 @@ define('access', true);
     </script>
     <script>
         var acikmi = 1;
-        $(".ac-kapa").click(function () {
+        $(".ac-kapasag").click(function () {
             if (acikmi === 1) {
                 $('.mobil-menu').animate({left: '0px'}, 600);
                 $('body').animate({left: '250px'}, 800);
