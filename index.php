@@ -959,10 +959,10 @@ define('access', true);
 
         $('.ac-kapasag').on('click', function() {
             if (isActive) {
-                $(this).removeClass('active');
+                $('.mobil-menuqq').removeClass('active');
                 $('body').removeClass('menu-open');
             } else {
-                $(this).addClass('active');
+                $('.mobil-menuqq').addClass('active');
                 $('body').addClass('menu-open');
             }
 

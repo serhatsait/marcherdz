@@ -2093,3 +2093,7 @@ body {
     width: 100%;
     height: auto;
 }
+
+.mobil-menuqq .active {
+    right: 0;
+}
