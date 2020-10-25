@@ -957,7 +957,7 @@ define('access', true);
     <script>
         var acikmi4 = 1;
         $(".ac-kapasag").click(function () {
-            if (acikmi4 == 1) {
+            if (acikmi4 === 1) {
                 $('.mobil-menuqq').animate({right: '-250px'}, 600);
                 $('body').animate({right: '250px'}, 800);
                 acikmi4 = 2;
@@ -971,7 +971,7 @@ define('access', true);
     <script>
         var acikmi = 1;
         $(".ac-kapa").click(function () {
-            if (acikmi == 1) {
+            if (acikmi === 1) {
                 $('.mobil-menu').animate({left: '0px'}, 600);
                 $('body').animate({left: '250px'}, 800);
                 acikmi = 2;
