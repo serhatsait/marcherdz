@@ -955,18 +955,33 @@ define('access', true);
         </section>
     </footer>
     <script>
-        var acikmi4 = 1;
-        $(".ac-kapasag").click(function () {
-            if (acikmi4 === 1) {
-                $('.mobil-menuqq').animate({right: '-250px'}, 600);
-                $('body').animate({right: '250px'}, 800);
-                acikmi4 = 2;
+        var isActive = false;
+
+        $('.ac-kapasag').on('click', function() {
+            if (isActive) {
+                $(this).removeClass('active');
+                $('body').removeClass('menu-open');
             } else {
-                $('.mobil-menuqq').animate({right: '0px'}, 600);
-                $('body').animate({right: '-250px'}, 800);
-                acikmi4 = 1;
+                $(this).addClass('active');
+                $('body').addClass('menu-open');
             }
+
+            isActive = !isActive;
         });
+    </script>
+    <script>
+        // var acikmi4 = 1;
+        // $(".ac-kapasag").click(function () {
+        //     if (acikmi4 === 1) {
+        //         $('.mobil-menuqq').animate({right: '-250px'}, 600);
+        //         $('body').animate({right: '250px'}, 800);
+        //         acikmi4 = 2;
+        //     } else {
+        //         $('.mobil-menuqq').animate({right: '0px'}, 600);
+        //         $('body').animate({right: '-250px'}, 800);
+        //         acikmi4 = 1;
+        //     }
+        // });
     </script>
     <script>
         var acikmi = 1;
