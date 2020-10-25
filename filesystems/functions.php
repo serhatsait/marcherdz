@@ -69,7 +69,7 @@ function banner($e)
 	$a = $sql->fetch(PDO::FETCH_ASSOC);
 	if ($a["tip"] == 0){
 	if ($e != 6){
-	$l = '<a href="'.$a["url"].'"><img src="'.$base_url.'uploads/'.$a["kod"].'" width="100%" alt=""/></a>';	
+	$l = '<a href="'.$base_url.'"><img src="'.$base_url.'uploads/'.$a["kod"].'" width="100%" alt=""/></a>';
 	} else {
 	$l = '<a href="'.$a["url"].'"><img src="'.$base_url.'uploads/'.$a["kod"].'" alt=""/></a>';		
 	}

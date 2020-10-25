@@ -83,8 +83,7 @@ $description = $si["aciklama"];
                         aria-expanded="false" aria-controls="navbar"><span class="icon-bar"></span> <span
                             class="icon-bar"></span> <span class="icon-bar"></span></button>
                 <div class="visible-xs"
-                     style="color: #fff;font-weight:600;margin-top:9px;text-align:center;margin-left:30px;"><a
-                            href="<?php echo $base_url; ?>"><? echo banner(6); ?></a></div>
+                     style="color: #fff;font-weight:600;margin-top:9px;text-align:center;margin-left:30px;"><? echo banner(6); ?></div>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
 
