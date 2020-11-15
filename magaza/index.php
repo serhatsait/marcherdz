@@ -67,15 +67,6 @@ $description = $si["aciklama"];
     </head>
     <body>
 
-    <div class="container">
-        <div class="row no-pad">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
-
-            </div>
-            <div class="visible-lg col-lg-8"><span class="pull-right banner1"></span></div>
-        </div>
-    </div>
-
     <nav class="navbar navbar-default navbar-static-top">
         <div class="container">
             <div class="navbar-header">

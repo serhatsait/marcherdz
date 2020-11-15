@@ -1061,7 +1061,9 @@ body {
 .container {
     max-width: 1200px !important
 }
-
+.container::before{
+    content: "";
+}
 .logo a img {
     width: 180px;
     height: 45px;
@@ -2107,3 +2109,4 @@ body {
     top: 50%!important;
     margin-top: 0!important;
 }
+
