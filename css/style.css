@@ -1063,6 +1063,7 @@ body {
 }
 .container::before{
     content: "";
+    display: none;
 }
 .logo a img {
     width: 180px;
