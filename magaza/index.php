@@ -69,17 +69,17 @@ $description = $si["aciklama"];
 
     <nav class="navbar navbar-default navbar-static-top" style="display: flex;">
         <div class="container" style="width: 100%;">
-            <div class="navbar-header" style="position: relative;">
+            <div class="navbar-header" style="position: relative;display: flex;flex-direction: row;align-items: center;justify-content: center;text-align: center;">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
-                        aria-expanded="false" aria-controls="navbar"><span class="icon-bar"></span> <span
+                        aria-expanded="false" aria-controls="navbar" style="margin: 0 0 0 10px;"><span class="icon-bar"></span> <span
                             class="icon-bar"></span> <span class="icon-bar"></span></button>
                 <div class="visible-xs"
-                     style="color: #fff;font-weight:600;margin-top:9px;text-align:center;margin-left:30px;"><? echo banner(6); ?></div>
+                     style="width: 100%;padding: 10px 0;"><? echo banner(6); ?></div>
             </div>
             <div id="navbar" class="navbar-collapse collapse" style="position: relative;">
 
                 <ul class="nav navbar-nav" style="padding: 0 16px;">
-                    <li><a href="<?php echo $base_url; ?>"><i class="fa fa-home" aria-hidden="true"></i> Anasayfa</a>
+                    <li><a href="<?php echo $base_url; ?>" style="display: inline-block;"><i class="fa fa-home" aria-hidden="true"></i> Anasayfa</a>
                     </li>
                     <li class="dropdown visible-xs"><a href="#" class="dropdown-toggle res1" data-toggle="dropdown"
                                                        role="button" aria-haspopup="true" aria-expanded="false"><i
