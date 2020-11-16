@@ -34,10 +34,10 @@ $description = $si["aciklama"];
               type="text/css"/>
         <link rel="stylesheet"
               href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen"/>
-        <link rel="stylesheet" href="/fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css"
+        <link rel="stylesheet" href="/fancybox/source/jquery.fancybox.css" type="text/css" media="screen"/>
+        <link rel="stylesheet" href="/fancybox/source/helpers/jquery.fancybox-buttons.css" type="text/css"
               media="screen"/>
-        <link rel="stylesheet" href="/fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css"
+        <link rel="stylesheet" href="/fancybox/source/helpers/jquery.fancybox-thumbs.css" type="text/css"
               media="screen"/>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="<?php echo $base_url; ?>js/global.js"></script>
