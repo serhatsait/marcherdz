@@ -78,7 +78,7 @@ $description = $si["aciklama"];
             </div>
             <div id="navbar" class="navbar-collapse collapse">
 
-                <ul class="nav navbar-nav">
+                <ul class="nav navbar-nav" style="padding: 0 16px;">
                     <li><a href="<?php echo $base_url; ?>"><i class="fa fa-home" aria-hidden="true"></i> Anasayfa</a>
                     </li>
                     <li class="dropdown visible-xs"><a href="#" class="dropdown-toggle res1" data-toggle="dropdown"
