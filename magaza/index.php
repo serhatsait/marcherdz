@@ -202,7 +202,7 @@ $description = $si["aciklama"];
                     }
                     ?>
                 </ul>
-                <ul class="nav navbar-nav hidden-xs" style="margin-left:380px;">
+                <ul class="nav navbar-nav hidden-xs" style="float: right;padding: 0 16px;">
                     <? if ($_SESSION['uye'] == "") { ?>
                         <li style="margin-right:5px"><a href="<? echo $base_url; ?>login/"><i class="fa fa-user"
                                                                                               aria-hidden="true"></i> <?php echo $lg[2]; ?>
