@@ -67,16 +67,16 @@ $description = $si["aciklama"];
     </head>
     <body>
 
-    <nav class="navbar navbar-default navbar-static-top">
-        <div class="container">
-            <div class="navbar-header">
+    <nav class="navbar navbar-default navbar-static-top" style="display: flex;">
+        <div class="container" style="width: 100%;">
+            <div class="navbar-header" style="position: relative;">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
                         aria-expanded="false" aria-controls="navbar"><span class="icon-bar"></span> <span
                             class="icon-bar"></span> <span class="icon-bar"></span></button>
                 <div class="visible-xs"
                      style="color: #fff;font-weight:600;margin-top:9px;text-align:center;margin-left:30px;"><? echo banner(6); ?></div>
             </div>
-            <div id="navbar" class="navbar-collapse collapse">
+            <div id="navbar" class="navbar-collapse collapse" style="position: relative;">
 
                 <ul class="nav navbar-nav" style="padding: 0 16px;">
                     <li><a href="<?php echo $base_url; ?>"><i class="fa fa-home" aria-hidden="true"></i> Anasayfa</a>
