@@ -1061,7 +1061,7 @@ body {
 .container {
     max-width: 1200px !important
 }
-.container::before,.navbar-header::before,.navbar::before{
+.container::before,.navbar-header::before,.navbar::before, .navbar::marker{
     content: "";
     display: none;
 }
